@@ -7,6 +7,8 @@ Use the SwiftUI Kit to see how SwiftUI views appear and interact when using the 
 
 Includes Buttons, Colors, Controls, Fonts, Haptics, Images, Indicators, Shapes, and Text. 
 
+![SwiftUI Kit examples](https://user-images.githubusercontent.com/110813/87210295-00806280-c2e3-11ea-91e3-4ea6da79f73e.png)
+
 #### To run
 Make sure you're using [Xcode 12+](https://developer.apple.com/xcode/) as well as a device running iOS 14+. Works on iPhone and iPad.
 

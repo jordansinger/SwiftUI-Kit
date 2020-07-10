@@ -3,7 +3,7 @@ A SwiftUI iOS system components and interactions demo app based on iOS 14
 
 ![SwiftUI Kit](https://user-images.githubusercontent.com/110813/87210094-5accf380-c2e2-11ea-91c9-4f21aa313bc6.png)
 
-Use the SwiftUI Kit to see how SwiftUI views appear and interact when using the system defaults. You can view the source to see how particular examples work.
+Use the SwiftUI Kit app to see how SwiftUI views appear and interact when using the system defaults. You can view the source to see how particular examples work.
 
 Includes Buttons, Colors, Controls, Fonts, Haptics, Images, Indicators, Shapes, and Text. 
 

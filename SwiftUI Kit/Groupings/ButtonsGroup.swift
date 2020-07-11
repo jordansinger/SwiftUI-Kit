@@ -64,6 +64,7 @@ struct ButtonsGroup: View {
                 }
             )
             
+            #if os(iOS) || os(OSX)
             SectionView(
                 title: "Link",
                 description: "A control for navigating to a URL.",
@@ -71,6 +72,7 @@ struct ButtonsGroup: View {
                     Link("lil.software", destination: URL(string: "https://lil.software")!)
                 }
             )
+            #endif
             
             SectionView(
                 title: "NavigationLink",

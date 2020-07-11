@@ -32,8 +32,10 @@ struct ColorsGroup: View {
     ]
     
     var body: some View {
-        ForEach(colors, id: \.id) { color in
-            Swatch(color: color)
+        Group {
+            ForEach(colors, id: \.id) { color in
+                Swatch(color: color)
+            }
         }
     }
 }

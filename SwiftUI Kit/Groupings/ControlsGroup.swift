@@ -11,6 +11,7 @@ struct ControlsGroup: View {
     @State private var vibrateOnRing = true
     @State private var selectedFlavor = Flavor.chocolate
     @State private var birthday = Date()
+    @State private var alarm = Date()
     @State private var volume = 50.0
     @State private var age = 0
     @State private var color = Color(.sRGB, red: 0, green: 0, blue: 0)
@@ -38,9 +39,13 @@ struct ControlsGroup: View {
                 }
             }
             
-            SectionView(title: "DatePicker", description: "A control for selecting an absolute date.") {
-                DatePicker(selection: $birthday, in: ...Date(), displayedComponents: .date) {
-                    Text("Birthday")
+            SectionView(title: "DatePicker", description: "A control for selecting an absolute date/time.") {
+                Group {
+                    DatePicker(selection: $birthday, in: ...Date(), displayedComponents: .date) {
+                        Text("Birthday")
+                    }
+
+                    DatePicker("Alarm", selection: $alarm, displayedComponents: .hourAndMinute)
                 }
             }
             

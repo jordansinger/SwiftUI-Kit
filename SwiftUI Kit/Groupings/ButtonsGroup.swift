@@ -72,6 +72,51 @@ struct ButtonsGroup: View {
                 }
             )
             
+            #if !os(watchOS)
+            SectionView(
+                title: "Menu",
+                description: "A control for presenting a contextually-appropriate menu of buttons.",
+                content: {
+                    Group {
+                        #if os(macOS)
+                        Menu("Show Menu") {
+                            Button("Button") {}
+                            Button("Button") {}
+                            Menu("Submenu") {
+                                Button("Button") {}
+                                Button("Button") {}
+                                Button("Button") {}
+                            }
+                            Divider()
+                            Button("Button") {}
+                            Menu("Submenu") {
+                                Button("Button") {}
+                                Button("Button") {}
+                                Button("Button") {}
+                            }
+                        }
+                        #endif
+                        
+                        #if os(iOS)
+                        HStack {
+                            Text("Show Menu")
+                            Spacer()
+                            Text("Press & hold").italic().foregroundColor(.secondary)
+                        }
+                        .contextMenu {
+                            Button("Button") {}
+                            Button("Button") {}
+                            Button("Button") {}
+                            Divider()
+                            Button("Button") {}
+                            Button("Button") {}
+                        }
+                        #endif
+                    }
+                }
+            )
+            #endif
+            
             SectionView(
                 title: "NavigationLink",
                 description: "A view that controls a navigation presentation.",

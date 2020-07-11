@@ -12,11 +12,17 @@ struct GroupView<Content: View>: View {
     let content: () -> Content
     
     var body: some View {
-        List {
+        #if os(iOS)
+        return List {
             content()
         }
         .listStyle(InsetGroupedListStyle())
         .navigationBarTitle(title, displayMode: .inline)
+        #else
+        return ScrollView {
+            content()
+        }.frame(maxWidth: .infinity, maxHeight: .infinity).padding()
+        #endif
     }
 }
 

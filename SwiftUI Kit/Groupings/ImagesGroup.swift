@@ -17,7 +17,20 @@ struct ImagesGroup: View {
                     Image("Image")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(height: 128)
+                        .frame(maxHeight: 128)
+                }
+            )
+            
+            SectionView(
+                title: "System Images",
+                description: "Built-in icons that represent common tasks and types of content in a variety of use cases. The full list of icons is available in the SF Symbols app.",
+                content: {
+                    Group {
+                        Image(systemName: "memories.badge.plus")
+                            // This modifier lets you use the new multi-color system icons in SF Symbols 2
+                            .renderingMode(.original)
+                        Image(systemName: "memories.badge.plus")
+                    }
                 }
             )
             

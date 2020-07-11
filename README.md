@@ -1,5 +1,5 @@
 # SwiftUI Kit
-A SwiftUI system components and interactions demo app based on iOS 14 and macOS Big Sur
+A SwiftUI system components and interactions demo app based on iOS 14, macOS Big Sur, and watchOS 4.
 
 ![SwiftUI Kit](https://user-images.githubusercontent.com/110813/87210094-5accf380-c2e2-11ea-91c9-4f21aa313bc6.png)
 
@@ -19,9 +19,12 @@ To change the accent color and see how it affects the system components, go to t
 Please feel free to submit pull requests in order to contribute back to SwiftUI Kit. This is for the SwiftUI community!
 
 #### SwiftUI Resources
-[Recreate](https://recreatecode.com) - A video series about recreating popular UI with SwiftUI
+- [Recreate](https://recreatecode.com) - A video series about recreating popular UI with SwiftUI
+- [Primitive](https://primitive.school) - Learn SwiftUI for designers
 
-[Primitive](https://primitive.school) - Learn SwiftUI for designers
+#### Apple Resources
+- [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) - Apple’s design guidelines for creating best-in-class apps.
+- [SF Symbols](https://developer.apple.com/sf-symbols/) – Apple’s comprehensive library of vector-based symbols included in Apple’s system fonts that you can incorporate into your app.
 
 By [Jordan Singer](https://ibuildmyideas.com) ([@jsngr](https://twitter.com/jsngr))
 

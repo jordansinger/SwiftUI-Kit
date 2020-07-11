@@ -38,6 +38,7 @@ struct TextGroup: View {
                 }
             )
             
+            #if os(iOS) || os(OSX)
             SectionView(
                 title: "TextEditor",
                 description: "A view that can display and edit long-form text.",
@@ -46,6 +47,7 @@ struct TextGroup: View {
                         .frame(height: 88)
                 }
             )
+            #endif
         }
     }
 }

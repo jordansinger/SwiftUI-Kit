@@ -13,6 +13,7 @@ struct ButtonsGroup: View {
     @State private var showingActionSheet = false
     
     var body: some View {
+<<<<<<< Updated upstream
         Group {
             SectionView(
                 title: "Button",
@@ -47,6 +48,42 @@ struct ButtonsGroup: View {
                                 .cancel()
                             ])
                         }
+=======
+        SectionView(
+            title: "Button",
+            description: "A control that performs an action when triggered.",
+            content: {
+                Group {
+                    Button(action: {
+                        self.showingAlert = true
+                    }) {
+                        Text("Show Alert")
+                    }
+                    .alert(isPresented: $showingAlert) {
+                        Alert(title: Text("Title"), message: Text("Message"), dismissButton: .default(Text("Done")))
+                    }
+                    
+                    Button(action: {
+                        self.showingSheet = true
+                    }) {
+                        Text("Show Sheet")
+                    }.sheet(isPresented: $showingSheet) {
+                        Text("Sheet")
+                    }
+                    
+                    Button(action: {
+                        self.showingActionSheet = true
+                    }) {
+                        Text("Show Action Sheet")
+                    }
+                    .actionSheet(isPresented: $showingActionSheet) {
+                        ActionSheet(title: Text("Title"), message: Text("Message"), buttons: [
+                            .destructive(Text("Delete")),
+                            .default(Text("Option 1")) { },
+                            .default(Text("Option 2")) { },
+                            .cancel()
+                        ])
+>>>>>>> Stashed changes
                     }
                 }
             )

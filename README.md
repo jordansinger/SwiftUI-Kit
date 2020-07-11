@@ -1,5 +1,5 @@
 # SwiftUI Kit
-A SwiftUI iOS system components and interactions demo app based on iOS 14 and macOS Big Sur
+A SwiftUI system components and interactions demo app based on iOS 14 and macOS Big Sur
 
 ![SwiftUI Kit](https://user-images.githubusercontent.com/110813/87210094-5accf380-c2e2-11ea-91c9-4f21aa313bc6.png)
 

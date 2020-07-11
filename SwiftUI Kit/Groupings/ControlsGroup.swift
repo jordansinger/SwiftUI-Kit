@@ -28,20 +28,30 @@ struct ControlsGroup: View {
                 }
             }
             
-            SectionView(title: "Picker", description: "A control for selecting from a set of mutually exclusive values.") {
+            SectionView(title: "Picker", description: "A control for selecting from a set of mutually exclusive values. The default style is usually a wheel on iOS; in a grouped list like this one it’s styled like a navigation link. The default style is a pop-up button on macOS.") {
                 Group {
                     Picker("Flavor", selection: $selectedFlavor) {
-                        Text("Chocolate").tag(Flavor.chocolate)
-                        Text("Vanilla").tag(Flavor.vanilla)
-                        Text("Strawberry").tag(Flavor.strawberry)
+                        ForEach(Flavor.allCases) { Text($0.description).tag($0) }
                     }
 
                     Picker("Flavor", selection: $selectedFlavor) {
-                        Text("Chocolate").tag(Flavor.chocolate)
-                        Text("Vanilla").tag(Flavor.vanilla)
-                        Text("Strawberry").tag(Flavor.strawberry)
+                        ForEach(Flavor.allCases) { Text($0.description).tag($0) }
                     }
                     .pickerStyle(SegmentedPickerStyle())
+
+                    #if os(macOS)
+                    Picker("Flavor", selection: $selectedFlavor) {
+                        ForEach(Flavor.allCases) { Text($0.description).tag($0) }
+                    }
+                    .pickerStyle(RadioGroupPickerStyle())
+                    #endif
+                    
+                    #if os(iOS)
+                    Picker("Flavor", selection: $selectedFlavor) {
+                        ForEach(Flavor.allCases) { Text($0.description).tag($0) }
+                    }
+                    .pickerStyle(WheelPickerStyle())
+                    #endif
                 }
             }
             
@@ -70,12 +80,13 @@ struct ControlsGroup: View {
     }
 }
 
-enum Flavor: String, CaseIterable, Identifiable {
+enum Flavor: String, CaseIterable, Identifiable, CustomStringConvertible {
     case chocolate
     case vanilla
     case strawberry
 
     var id: String { self.rawValue }
+    var description: String { self.rawValue.localizedCapitalized }
 }
 
 struct ControlsGroup_Previews: PreviewProvider {

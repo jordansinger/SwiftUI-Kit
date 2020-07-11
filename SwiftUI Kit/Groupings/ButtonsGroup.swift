@@ -4,7 +4,6 @@
 //
 //  Created by Jordan Singer on 7/10/20.
 //
-
 import SwiftUI
 
 struct ButtonsGroup: View {
@@ -43,7 +42,9 @@ struct ButtonsGroup: View {
                         }
                         .actionSheet(isPresented: $showingActionSheet) {
                             ActionSheet(title: Text("Title"), message: Text("Message"), buttons: [
-                                .default(Text("OK")) { },
+                                .destructive(Text("Delete")),
+                                .default(Text("Option 1")) { },
+                                .default((Text("Option 2"))) { },
                                 .cancel()
                             ])
                         }

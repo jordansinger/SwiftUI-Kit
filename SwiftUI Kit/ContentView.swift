@@ -27,10 +27,10 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
-            #if os(iOS)
+            #if os(iOS) || os(watchOS)
             list.navigationBarTitle("SwiftUI")
             Text("Select a group")
-            #else
+            #elseif os(OSX)
             list.listStyle(SidebarListStyle())
             Text("Select a group").frame(maxWidth: .infinity, maxHeight: .infinity)
             #endif

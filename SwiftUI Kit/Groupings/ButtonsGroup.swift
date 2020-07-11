@@ -82,6 +82,7 @@ struct ButtonsGroup: View {
                 }
             )
             
+            #if os(iOS) || os(OSX)
             SectionView(
                 title: "SignInWithAppleButton",
                 description: "A control that you add to your interface to allow users to sign in with their Apple ID.",
@@ -97,6 +98,7 @@ struct ButtonsGroup: View {
                     )
                 }
             )
+            #endif
         }
     }
 }

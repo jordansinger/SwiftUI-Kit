@@ -34,12 +34,12 @@ struct ControlsGroup: View {
                     Picker("Flavor", selection: $selectedFlavor) {
                         ForEach(Flavor.allCases) { Text($0.description).tag($0) }
                     }
-
+                    #if os(iOS) || os(OSX)
                     Picker("Flavor", selection: $selectedFlavor) {
                         ForEach(Flavor.allCases) { Text($0.description).tag($0) }
                     }
                     .pickerStyle(SegmentedPickerStyle())
-
+                  
                     #if os(macOS)
                     Picker("Flavor", selection: $selectedFlavor) {
                         ForEach(Flavor.allCases) { Text($0.description).tag($0) }
@@ -56,6 +56,7 @@ struct ControlsGroup: View {
                 }
             }
             
+            #if os(iOS) || os(OSX)
             SectionView(title: "DatePicker", description: "A control for selecting an absolute date/time.") {
                 Group {
                     DatePicker(selection: $birthday, in: ...Date(), displayedComponents: .date) {
@@ -65,6 +66,7 @@ struct ControlsGroup: View {
                     DatePicker("Alarm", selection: $alarm, displayedComponents: .hourAndMinute)
                 }
             }
+            #endif
             
             SectionView(title: "Slider", description: "A control for selecting a value from a bounded linear range of values. It can slide continuously, or snap to fixed increments.") {
                 Group {
@@ -74,13 +76,17 @@ struct ControlsGroup: View {
                 }
             }
             
+            #if os(iOS) || os(OSX)
             SectionView(title: "Stepper", description: "A control used to perform semantic increment and decrement actions.") {
                 Stepper("Age: \(age)", value: $age, in: 0...100)
             }
+            #endif
             
+            #if os(iOS) || os(OSX)
             SectionView(title: "ColorPicker", description: "A control used to select a color from the system color picker UI.") {
                 ColorPicker("Color", selection: $color)
             }
+            #endif
         }
     }
 }

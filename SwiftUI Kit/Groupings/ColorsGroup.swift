@@ -42,13 +42,6 @@ struct ColorsGroup: View {
 
 struct Swatch: View {
     var color: StandardColor
-
-    #if os(iOS)
-    var lineColor = Color(UIColor.label.withAlphaComponent(0.2))
-    #else
-    var lineColor = Color(NSColor.labelColor.withAlphaComponent(0.2))
-    #endif
-    
     var body: some View {
         HStack(spacing: 12) {
             RoundedRectangle(cornerRadius: 4)
@@ -56,7 +49,7 @@ struct Swatch: View {
                 .frame(width: 24, height: 24)
                 .overlay(
                     RoundedRectangle(cornerRadius: 4)
-                        .stroke(lineColor, lineWidth: 1)
+                        .stroke(Color("StrokeColor"), lineWidth: 1)
                 )
             Text(color.name)
             Spacer()

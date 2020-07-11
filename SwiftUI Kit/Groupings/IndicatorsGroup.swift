@@ -29,5 +29,6 @@ struct IndicatorsGroup: View {
 struct IndicatorsGroup_Previews: PreviewProvider {
     static var previews: some View {
         IndicatorsGroup()
+            .previewLayout(.sizeThatFits)
     }
 }

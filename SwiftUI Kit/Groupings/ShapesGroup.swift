@@ -56,5 +56,6 @@ struct ShapesGroup: View {
 struct ShapesGroup_Previews: PreviewProvider {
     static var previews: some View {
         ShapesGroup()
+            .previewLayout(.sizeThatFits)
     }
 }

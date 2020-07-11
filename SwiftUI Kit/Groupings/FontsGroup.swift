@@ -77,5 +77,6 @@ struct FontsGroup: View {
 struct FontsGroup_Previews: PreviewProvider {
     static var previews: some View {
         FontsGroup()
+            .previewLayout(.sizeThatFits)
     }
 }

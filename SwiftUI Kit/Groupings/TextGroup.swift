@@ -53,5 +53,6 @@ struct TextGroup: View {
 struct TextGroup_Previews: PreviewProvider {
     static var previews: some View {
         TextGroup()
+            .previewLayout(.sizeThatFits)
     }
 }

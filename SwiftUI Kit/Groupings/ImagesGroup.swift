@@ -39,5 +39,6 @@ struct ImagesGroup: View {
 struct ImagesGroup_Previews: PreviewProvider {
     static var previews: some View {
         ImagesGroup()
+            .previewLayout(.sizeThatFits)
     }
 }

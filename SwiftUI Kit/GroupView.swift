@@ -23,5 +23,6 @@ struct GroupView<Content: View>: View {
 struct GroupView_Previews: PreviewProvider {
     static var previews: some View {
         GroupView(title: "Group", content: { Text("Content") })
+            .previewLayout(.sizeThatFits)
     }
 }

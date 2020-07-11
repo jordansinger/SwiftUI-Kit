@@ -82,5 +82,6 @@ enum Flavor: String, CaseIterable, Identifiable {
 struct ControlsGroup_Previews: PreviewProvider {
     static var previews: some View {
         ControlsGroup()
+            .previewLayout(.sizeThatFits)
     }
 }

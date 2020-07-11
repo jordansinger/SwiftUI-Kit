@@ -92,5 +92,6 @@ struct ButtonsGroup: View {
 struct ButtonsGroup_Previews: PreviewProvider {
     static var previews: some View {
         ButtonsGroup()
+            .previewLayout(.sizeThatFits)
     }
 }

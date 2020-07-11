@@ -61,5 +61,6 @@ struct Swatch: View {
 struct ColorsGroup_Previews: PreviewProvider {
     static var previews: some View {
         ColorsGroup()
+            .previewLayout(.sizeThatFits)
     }
 }

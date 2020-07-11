@@ -74,5 +74,6 @@ struct HapticsGroup: View {
 struct HapticsGroup_Previews: PreviewProvider {
     static var previews: some View {
         HapticsGroup()
+            .previewLayout(.sizeThatFits)
     }
 }

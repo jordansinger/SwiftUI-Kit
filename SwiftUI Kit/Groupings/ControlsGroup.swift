@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ControlsGroup: View {
     @State private var vibrateOnRing = true
+    @State private var vibrateOnSilent = true
     @State private var selectedFlavor = Flavor.chocolate
     @State private var birthday = Date()
     @State private var alarm = Date()
@@ -18,8 +19,13 @@ struct ControlsGroup: View {
 
     var body: some View {
         Group {
-            SectionView(title: "Toggle", description: "A control that toggles between on and off states.") {
-                Toggle("Vibrate on Ring", isOn: $vibrateOnRing)
+            SectionView(title: "Toggle", description: "A control that toggles between on and off states. The default style is a switch on iOS, and a checkbox on macOS.") {
+                Group {
+                    Toggle("Vibrate on Ring", isOn: $vibrateOnRing)
+                    
+                    Toggle("Vibrate on Silent", isOn: $vibrateOnSilent)
+                        .toggleStyle(SwitchToggleStyle())
+                }
             }
             
             SectionView(title: "Picker", description: "A control for selecting from a set of mutually exclusive values.") {

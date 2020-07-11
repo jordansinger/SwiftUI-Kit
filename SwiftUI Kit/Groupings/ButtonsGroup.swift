@@ -37,11 +37,11 @@ struct ButtonsGroup: View {
                         }) {
                             Text("Show Sheet")
                         }.sheet(isPresented: $showingSheet) {
-                            Text("Sheet")
+                            Text("Sheet").padding()
                             #if os(macOS)
                             Button("Close") {
                                 showingSheet.toggle()
-                            }
+                            }.padding()
                             #endif
                         }
                         

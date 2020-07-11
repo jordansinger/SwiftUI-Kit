@@ -1,5 +1,5 @@
 # SwiftUI Kit
-A SwiftUI iOS system components and interactions demo app based on iOS 14
+A SwiftUI iOS system components and interactions demo app based on iOS 14 and macOS Big Sur
 
 ![SwiftUI Kit](https://user-images.githubusercontent.com/110813/87210094-5accf380-c2e2-11ea-91c9-4f21aa313bc6.png)
 
@@ -10,7 +10,7 @@ Includes Buttons, Colors, Controls, Fonts, Haptics, Images, Indicators, Shapes, 
 ![SwiftUI Kit examples](https://user-images.githubusercontent.com/110813/87210295-00806280-c2e3-11ea-91e3-4ea6da79f73e.png)
 
 #### To run
-Make sure you're using [Xcode 12+](https://developer.apple.com/xcode/) as well as a device running iOS 14+. Works on iPhone and iPad.
+Make sure you're using [Xcode 12+](https://developer.apple.com/xcode/) as well as a device running iOS 14+. Works on iPhone, iPad, and Mac.
 
 #### Accent color
 To change the accent color and see how it affects the system components, go to the AccentColor section of Assets.xcassets in Xcode. You can then change the Light and Dark accent colors that will be applied to the app.

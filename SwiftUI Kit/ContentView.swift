@@ -8,22 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    var list: some View {
+        List {
+            Grouping(title: "Buttons", icon: "capsule", content: { ButtonsGroup() })
+            Grouping(title: "Colors", icon: "paintpalette", content: { ColorsGroup() })
+            Grouping(title: "Controls", icon: "slider.horizontal.3", content: { ControlsGroup() })
+            Grouping(title: "Fonts", icon: "textformat", content: { FontsGroup() })
+            #if os(iOS)
+            Grouping(title: "Haptics", icon: "hand.tap", content: { HapticsGroup() })
+            #endif
+            Grouping(title: "Images", icon: "photo", content: { ImagesGroup() })
+            Grouping(title: "Indicators", icon: "speedometer", content: { IndicatorsGroup() })
+            Grouping(title: "Shapes", icon: "square.on.circle", content: { ShapesGroup() })
+            Grouping(title: "Text", icon: "text.aligncenter", content: { TextGroup() })
+        }
+    }
+
     var body: some View {
         NavigationView {
-            List {
-                Grouping(title: "Buttons", icon: "capsule", content: { ButtonsGroup() })
-                Grouping(title: "Colors", icon: "paintpalette", content: { ColorsGroup() })
-                Grouping(title: "Controls", icon: "slider.horizontal.3", content: { ControlsGroup() })
-                Grouping(title: "Fonts", icon: "textformat", content: { FontsGroup() })
-                Grouping(title: "Haptics", icon: "hand.tap", content: { HapticsGroup() })
-                Grouping(title: "Images", icon: "photo", content: { ImagesGroup() })
-                Grouping(title: "Indicators", icon: "speedometer", content: { IndicatorsGroup() })
-                Grouping(title: "Shapes", icon: "square.on.circle", content: { ShapesGroup() })
-                Grouping(title: "Text", icon: "text.aligncenter", content: { TextGroup() })
-            }
-            .navigationBarTitle("SwiftUI")
-            
+            #if os(iOS)
+            list.navigationBarTitle("SwiftUI")
             Text("Select a group")
+            #else
+            list.listStyle(SidebarListStyle())
+            Text("Select a group").frame(maxWidth: .infinity, maxHeight: .infinity)
+            #endif
         }
         .accentColor(.accentColor)
     }
@@ -36,9 +46,11 @@ struct Grouping<Content: View>: View {
     
     var body: some View {
         NavigationLink(destination: GroupView(title: title, content: content)) {
+            #if os(iOS)
+            Label(title, systemImage: icon).font(.headline).padding(.vertical, 8)
+            #else
             Label(title, systemImage: icon)
-                .font(.headline)
-                .padding(.vertical, 8)
+            #endif
         }
     }
 }

@@ -22,10 +22,23 @@
 		861EC66924B91D4E005C2F44 /* IndicatorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */; };
 		861EC66B24B91E1D005C2F44 /* ImagesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */; };
 		861EC66D24B91F19005C2F44 /* HapticsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66C24B91F19005C2F44 /* HapticsGroup.swift */; };
+		F95A4E1F24B9936000697538 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
+		F95A4E2024B9937800697538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
+		F95A4E2124B9938100697538 /* ShapesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66024B912C9005C2F44 /* ShapesGroup.swift */; };
+		F95A4E2224B9938100697538 /* ImagesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */; };
+		F95A4E2324B9938100697538 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65524B90E16005C2F44 /* GroupView.swift */; };
+		F95A4E2424B9938100697538 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */; };
+		F95A4E2524B9938100697538 /* ColorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66224B912D2005C2F44 /* ColorsGroup.swift */; };
+		F95A4E2624B9938100697538 /* ControlsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65C24B9106E005C2F44 /* ControlsGroup.swift */; };
+		F95A4E2724B9938100697538 /* TextGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65A24B91065005C2F44 /* TextGroup.swift */; };
+		F95A4E2824B9938100697538 /* IndicatorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */; };
+		F95A4E2924B9938100697538 /* FontsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65E24B91075005C2F44 /* FontsGroup.swift */; };
+		F95A4E2A24B9938100697538 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66424B914FB005C2F44 /* SectionView.swift */; };
+		F95A4E2C24B9938500697538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861EC64924B90DDB005C2F44 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		861EC64224B90DD9005C2F44 /* SwiftUI Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		861EC64224B90DD9005C2F44 /* SwiftUI Kit iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_KitApp.swift; sourceTree = "<group>"; };
 		861EC64724B90DD9005C2F44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		861EC64924B90DDB005C2F44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,10 +55,20 @@
 		861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsGroup.swift; sourceTree = "<group>"; };
 		861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesGroup.swift; sourceTree = "<group>"; };
 		861EC66C24B91F19005C2F44 /* HapticsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsGroup.swift; sourceTree = "<group>"; };
+		F95A4E0F24B9932000697538 /* SwiftUI Kit Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95A4E1A24B9932200697538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95A4E1B24B9932200697538 /* SwiftUI_Kit_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Kit_Mac.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		861EC63F24B90DD9005C2F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95A4E0C24B9932000697538 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,7 +81,9 @@
 		861EC63924B90DD9005C2F44 = {
 			isa = PBXGroup;
 			children = (
+				F9E3381324B9A1DC00D233B7 /* SwiftUI Kit iOS */,
 				861EC64424B90DD9005C2F44 /* SwiftUI Kit */,
+				F95A4E1024B9932000697538 /* SwiftUI Kit Mac */,
 				861EC64324B90DD9005C2F44 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,7 +91,8 @@
 		861EC64324B90DD9005C2F44 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				861EC64224B90DD9005C2F44 /* SwiftUI Kit.app */,
+				861EC64224B90DD9005C2F44 /* SwiftUI Kit iOS.app */,
+				F95A4E0F24B9932000697538 /* SwiftUI Kit Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,7 +106,6 @@
 				861EC65524B90E16005C2F44 /* GroupView.swift */,
 				861EC66424B914FB005C2F44 /* SectionView.swift */,
 				861EC64924B90DDB005C2F44 /* Assets.xcassets */,
-				861EC64E24B90DDB005C2F44 /* Info.plist */,
 				861EC64B24B90DDB005C2F44 /* Preview Content */,
 			);
 			path = "SwiftUI Kit";
@@ -110,12 +135,29 @@
 			path = Groupings;
 			sourceTree = "<group>";
 		};
+		F95A4E1024B9932000697538 /* SwiftUI Kit Mac */ = {
+			isa = PBXGroup;
+			children = (
+				F95A4E1A24B9932200697538 /* Info.plist */,
+				F95A4E1B24B9932200697538 /* SwiftUI_Kit_Mac.entitlements */,
+			);
+			path = "SwiftUI Kit Mac";
+			sourceTree = "<group>";
+		};
+		F9E3381324B9A1DC00D233B7 /* SwiftUI Kit iOS */ = {
+			isa = PBXGroup;
+			children = (
+				861EC64E24B90DDB005C2F44 /* Info.plist */,
+			);
+			path = "SwiftUI Kit iOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		861EC64124B90DD9005C2F44 /* SwiftUI Kit */ = {
+		861EC64124B90DD9005C2F44 /* SwiftUI Kit iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 861EC65124B90DDB005C2F44 /* Build configuration list for PBXNativeTarget "SwiftUI Kit" */;
+			buildConfigurationList = 861EC65124B90DDB005C2F44 /* Build configuration list for PBXNativeTarget "SwiftUI Kit iOS" */;
 			buildPhases = (
 				861EC63E24B90DD9005C2F44 /* Sources */,
 				861EC63F24B90DD9005C2F44 /* Frameworks */,
@@ -125,9 +167,26 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUI Kit";
+			name = "SwiftUI Kit iOS";
 			productName = "SwiftUI Kit";
-			productReference = 861EC64224B90DD9005C2F44 /* SwiftUI Kit.app */;
+			productReference = 861EC64224B90DD9005C2F44 /* SwiftUI Kit iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F95A4E0E24B9932000697538 /* SwiftUI Kit Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95A4E1C24B9932200697538 /* Build configuration list for PBXNativeTarget "SwiftUI Kit Mac" */;
+			buildPhases = (
+				F95A4E0B24B9932000697538 /* Sources */,
+				F95A4E0C24B9932000697538 /* Frameworks */,
+				F95A4E0D24B9932000697538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Kit Mac";
+			productName = "SwiftUI Kit Mac";
+			productReference = F95A4E0F24B9932000697538 /* SwiftUI Kit Mac.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,6 +199,9 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					861EC64124B90DD9005C2F44 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F95A4E0E24B9932000697538 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -157,7 +219,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				861EC64124B90DD9005C2F44 /* SwiftUI Kit */,
+				861EC64124B90DD9005C2F44 /* SwiftUI Kit iOS */,
+				F95A4E0E24B9932000697538 /* SwiftUI Kit Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -169,6 +232,14 @@
 			files = (
 				861EC64D24B90DDB005C2F44 /* Preview Assets.xcassets in Resources */,
 				861EC64A24B90DDB005C2F44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95A4E0D24B9932000697538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95A4E2C24B9938500697538 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +263,25 @@
 				861EC64624B90DD9005C2F44 /* SwiftUI_KitApp.swift in Sources */,
 				861EC65624B90E16005C2F44 /* GroupView.swift in Sources */,
 				861EC65D24B9106E005C2F44 /* ControlsGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95A4E0B24B9932000697538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95A4E2424B9938100697538 /* ButtonsGroup.swift in Sources */,
+				F95A4E2224B9938100697538 /* ImagesGroup.swift in Sources */,
+				F95A4E1F24B9936000697538 /* SwiftUI_KitApp.swift in Sources */,
+				F95A4E2824B9938100697538 /* IndicatorsGroup.swift in Sources */,
+				F95A4E2524B9938100697538 /* ColorsGroup.swift in Sources */,
+				F95A4E2324B9938100697538 /* GroupView.swift in Sources */,
+				F95A4E2924B9938100697538 /* FontsGroup.swift in Sources */,
+				F95A4E2124B9938100697538 /* ShapesGroup.swift in Sources */,
+				F95A4E2A24B9938100697538 /* SectionView.swift in Sources */,
+				F95A4E2624B9938100697538 /* ControlsGroup.swift in Sources */,
+				F95A4E2724B9938100697538 /* TextGroup.swift in Sources */,
+				F95A4E2024B9937800697538 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +412,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Kit/Info.plist";
+				INFOPLIST_FILE = "SwiftUI Kit iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -343,7 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Kit/Info.plist";
+				INFOPLIST_FILE = "SwiftUI Kit iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -353,6 +443,52 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F95A4E1D24B9932200697538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Kit Mac/SwiftUI_Kit_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI Kit Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.SwiftUI-Kit-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F95A4E1E24B9932200697538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Kit Mac/SwiftUI_Kit_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI Kit Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.SwiftUI-Kit-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -368,11 +504,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		861EC65124B90DDB005C2F44 /* Build configuration list for PBXNativeTarget "SwiftUI Kit" */ = {
+		861EC65124B90DDB005C2F44 /* Build configuration list for PBXNativeTarget "SwiftUI Kit iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				861EC65224B90DDB005C2F44 /* Debug */,
 				861EC65324B90DDB005C2F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95A4E1C24B9932200697538 /* Build configuration list for PBXNativeTarget "SwiftUI Kit Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95A4E1D24B9932200697538 /* Debug */,
+				F95A4E1E24B9932200697538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -17,54 +17,42 @@ struct ControlsGroup: View {
 
     var body: some View {
         Group {
-            Section(footer: Text("A control that toggles between on and off states.")) {
-                Text("Toggle")
-                    .font(.headline)
+            SectionView(title: "Toggle", description: "A control that toggles between on and off states.") {
                 Toggle("Vibrate on Ring", isOn: $vibrateOnRing)
             }
             
-            Section(footer: Text("A control for selecting from a set of mutually exclusive values.")) {
-                Text("Picker")
-                    .font(.headline)
-                
-                Picker("Flavor", selection: $selectedFlavor) {
-                    Text("Chocolate").tag(Flavor.chocolate)
-                    Text("Vanilla").tag(Flavor.vanilla)
-                    Text("Strawberry").tag(Flavor.strawberry)
-                }
+            SectionView(title: "Picker", description: "A control for selecting from a set of mutually exclusive values.") {
+                Group {
+                    Picker("Flavor", selection: $selectedFlavor) {
+                        Text("Chocolate").tag(Flavor.chocolate)
+                        Text("Vanilla").tag(Flavor.vanilla)
+                        Text("Strawberry").tag(Flavor.strawberry)
+                    }
 
-                Picker("Flavor", selection: $selectedFlavor) {
-                    Text("Chocolate").tag(Flavor.chocolate)
-                    Text("Vanilla").tag(Flavor.vanilla)
-                    Text("Strawberry").tag(Flavor.strawberry)
+                    Picker("Flavor", selection: $selectedFlavor) {
+                        Text("Chocolate").tag(Flavor.chocolate)
+                        Text("Vanilla").tag(Flavor.vanilla)
+                        Text("Strawberry").tag(Flavor.strawberry)
+                    }
+                    .pickerStyle(SegmentedPickerStyle())
                 }
-                .pickerStyle(SegmentedPickerStyle())
             }
             
-            Section(footer: Text("A control for selecting an absolute date.")) {
-                Text("DatePicker")
-                    .font(.headline)
-                
+            SectionView(title: "DatePicker", description: "A control for selecting an absolute date.") {
                 DatePicker(selection: $birthday, in: ...Date(), displayedComponents: .date) {
                     Text("Birthday")
                 }
             }
             
-            Section(footer: Text("A control for selecting a value from a bounded linear range of values.")) {
-                Text("Slider")
-                    .font(.headline)
+            SectionView(title: "Slider", description: "A control for selecting a value from a bounded linear range of values.") {
                 Slider(value: $volume, in: 0...100)
             }
             
-            Section(footer: Text("A control used to perform semantic increment and decrement actions.")) {
-                Text("Stepper")
-                    .font(.headline)
+            SectionView(title: "Stepper", description: "A control used to perform semantic increment and decrement actions.") {
                 Stepper("Age: \(age)", value: $age, in: 0...100)
             }
             
-            Section(footer: Text("A control used to select a color from the system color picker UI.")) {
-                Text("ColorPicker")
-                    .font(.headline)
+            SectionView(title: "ColorPicker", description: "A control used to select a color from the system color picker UI.") {
                 ColorPicker("Color", selection: $color)
             }
         }

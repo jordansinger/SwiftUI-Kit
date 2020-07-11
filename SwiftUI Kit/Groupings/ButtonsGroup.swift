@@ -33,8 +33,14 @@ struct ButtonsGroup: View {
                             Text("Show Sheet")
                         }.sheet(isPresented: $showingSheet) {
                             Text("Sheet")
+                            #if os(macOS)
+                            Button("Close") {
+                                showingSheet.toggle()
+                            }
+                            #endif
                         }
                         
+                        #if os(iOS)
                         Button(action: {
                             self.showingActionSheet = true
                         }) {
@@ -48,6 +54,7 @@ struct ButtonsGroup: View {
                                 .cancel()
                             ])
                         }
+                        #endif
                     }
                 }
             )

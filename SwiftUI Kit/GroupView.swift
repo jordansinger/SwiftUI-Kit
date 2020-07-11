@@ -20,8 +20,8 @@ struct GroupView<Content: View>: View {
         .navigationBarTitle(title, displayMode: .inline)
         #else
         return ScrollView {
-            content()
-        }.frame(maxWidth: .infinity, maxHeight: .infinity).padding()
+            content().padding()
+        }.frame(maxWidth: .infinity, maxHeight: .infinity)
         #endif
     }
 }

@@ -39,6 +39,7 @@ struct ControlsGroup: View {
                         ForEach(Flavor.allCases) { Text($0.description).tag($0) }
                     }
                     .pickerStyle(SegmentedPickerStyle())
+                    #endif
                   
                     #if os(macOS)
                     Picker("Flavor", selection: $selectedFlavor) {

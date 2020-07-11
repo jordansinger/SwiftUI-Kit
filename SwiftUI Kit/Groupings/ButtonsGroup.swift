@@ -24,7 +24,12 @@ struct ButtonsGroup: View {
                             Text("Show Alert")
                         }
                         .alert(isPresented: $showingAlert) {
-                            Alert(title: Text("Title"), message: Text("Message"), dismissButton: .default(Text("OK")))
+                            Alert(
+                                title: Text("Title"),
+                                message: Text("Message"),
+                                primaryButton: .default(Text("Confirm")),
+                                secondaryButton: .cancel()
+                            )
                         }
                         
                         Button(action: {
@@ -32,11 +37,11 @@ struct ButtonsGroup: View {
                         }) {
                             Text("Show Sheet")
                         }.sheet(isPresented: $showingSheet) {
-                            Text("Sheet")
+                            Text("Sheet").padding()
                             #if os(macOS)
                             Button("Close") {
                                 showingSheet.toggle()
-                            }
+                            }.padding()
                             #endif
                         }
                         

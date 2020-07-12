@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		2D8F82FD24BA011800E90F0B /* SwiftUI Kit watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D8F82FC24BA011800E90F0B /* SwiftUI Kit watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2D8F830624BA011800E90F0B /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8F830524BA011800E90F0B /* ComplicationController.swift */; };
-		2D8F830824BA011800E90F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8F830724BA011800E90F0B /* Assets.xcassets */; };
-		2D8F830B24BA011900E90F0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8F830A24BA011900E90F0B /* Preview Assets.xcassets */; };
 		2D8F830F24BA011900E90F0B /* SwiftUI Kit watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2D8F82F324BA011700E90F0B /* SwiftUI Kit watchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2D8F831824BA013E00E90F0B /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65524B90E16005C2F44 /* GroupView.swift */; };
 		2D8F831924BA013E00E90F0B /* ShapesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66024B912C9005C2F44 /* ShapesGroup.swift */; };
@@ -114,8 +112,6 @@
 		2D8F82F724BA011800E90F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D8F82FC24BA011800E90F0B /* SwiftUI Kit watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SwiftUI Kit watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D8F830524BA011800E90F0B /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		2D8F830724BA011800E90F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2D8F830A24BA011900E90F0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D8F830C24BA011900E90F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DF330A024BAA8B80034C8D0 /* SwiftUI Kit tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF330AB24BAA8B90034C8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -185,19 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				2D8F830524BA011800E90F0B /* ComplicationController.swift */,
-				2D8F830724BA011800E90F0B /* Assets.xcassets */,
 				2D8F830C24BA011900E90F0B /* Info.plist */,
-				2D8F830924BA011900E90F0B /* Preview Content */,
 			);
 			path = "watchOS Extension";
-			sourceTree = "<group>";
-		};
-		2D8F830924BA011900E90F0B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				2D8F830A24BA011900E90F0B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		2DF330A124BAA8B80034C8D0 /* tvOS */ = {
@@ -438,8 +424,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D8F830B24BA011900E90F0B /* Preview Assets.xcassets in Resources */,
-				2D8F830824BA011800E90F0B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,7 +592,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"watchOS Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "watchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -631,7 +615,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"watchOS Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "watchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -652,7 +636,7 @@
 		2DF330AC24BAA8B90034C8D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Brand Assets";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "Shared/Preview\\ Content";
@@ -676,7 +660,7 @@
 		2DF330AD24BAA8B90034C8D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Brand Assets";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "Shared/Preview\\ Content";

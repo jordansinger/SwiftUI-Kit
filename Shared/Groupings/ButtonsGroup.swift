@@ -74,7 +74,7 @@ struct ButtonsGroup: View {
             )
             #endif
             
-            #if !os(watchOS) && !os(tvOS)
+            #if !os(watchOS)
             SectionView(
                 title: "Menu",
                 description: "A control for presenting a contextually-appropriate menu of buttons.",
@@ -98,13 +98,14 @@ struct ButtonsGroup: View {
                             }
                         }
                         #endif
-                        
-                        #if os(iOS) || os(macOS)
+
                         HStack {
                             #if os(iOS)
                             Text("Show Menu")
                             Spacer()
                             Text("Press & hold").italic().foregroundColor(.secondary)
+                            #elseif os(tvOS)
+                            Button("Press & hold") {}
                             #elseif os(macOS)
                             Text("Right click")
                             #endif
@@ -117,7 +118,6 @@ struct ButtonsGroup: View {
                             Button("Button") {}
                             Button("Button") {}
                         }
-                        #endif
                     }
                 }
             )

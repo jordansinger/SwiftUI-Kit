@@ -7,6 +7,8 @@ Use the SwiftUI Kit app to see how SwiftUI views appear and interact when using 
 
 Includes Buttons, Colors, Controls, Fonts, Haptics, Images, Indicators, Shapes, Text, and more. 
 
+![iOS, iPadOS, macOS, watchOS, tvOS](https://user-images.githubusercontent.com/110813/87250474-f8cfd380-c432-11ea-830b-b90cce39a067.png)
+
 ![SwiftUI Kit examples](https://user-images.githubusercontent.com/110813/87210295-00806280-c2e3-11ea-91e3-4ea6da79f73e.png)
 
 #### To run

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ShapesGroup: View {
+    
     // Define constraints for the shape frames so they don’t stretch out too much on macOS
     let frameMinWidth: CGFloat = 16
     let frameMaxWidth: CGFloat = 256

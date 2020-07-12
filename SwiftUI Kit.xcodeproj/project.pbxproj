@@ -24,6 +24,21 @@
 		2D8F832224BA013E00E90F0B /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */; };
 		2DC7DE5624BA0D9A00A84252 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
 		2DC7DE5724BA0D9A00A84252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
+		2DF330A724BAA8B90034C8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF330A624BAA8B90034C8D0 /* Assets.xcassets */; };
+		2DF330AA24BAA8B90034C8D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF330A924BAA8B90034C8D0 /* Preview Assets.xcassets */; };
+		2DF330AF24BAA8C60034C8D0 /* ControlsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65C24B9106E005C2F44 /* ControlsGroup.swift */; };
+		2DF330B024BAA8C60034C8D0 /* ShapesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66024B912C9005C2F44 /* ShapesGroup.swift */; };
+		2DF330B124BAA8C60034C8D0 /* IndicatorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */; };
+		2DF330B224BAA8C60034C8D0 /* TextGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65A24B91065005C2F44 /* TextGroup.swift */; };
+		2DF330B324BAA8C60034C8D0 /* FontsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65E24B91075005C2F44 /* FontsGroup.swift */; };
+		2DF330B424BAA8C60034C8D0 /* ImagesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */; };
+		2DF330B524BAA8C60034C8D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
+		2DF330B624BAA8C60034C8D0 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */; };
+		2DF330B724BAA8C60034C8D0 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65524B90E16005C2F44 /* GroupView.swift */; };
+		2DF330B824BAA8C60034C8D0 /* ColorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66224B912D2005C2F44 /* ColorsGroup.swift */; };
+		2DF330B924BAA8C60034C8D0 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66424B914FB005C2F44 /* SectionView.swift */; };
+		2DF330BA24BAA8C60034C8D0 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
+		2DF330BB24BAAD720034C8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861EC64924B90DDB005C2F44 /* Assets.xcassets */; };
 		861EC64624B90DD9005C2F44 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
 		861EC64824B90DD9005C2F44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
 		861EC64A24B90DDB005C2F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861EC64924B90DDB005C2F44 /* Assets.xcassets */; };
@@ -104,6 +119,10 @@
 		2D8F830724BA011800E90F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D8F830A24BA011900E90F0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D8F830C24BA011900E90F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF330A024BAA8B80034C8D0 /* SwiftUI Kit tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF330A624BAA8B90034C8D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DF330A924BAA8B90034C8D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DF330AB24BAA8B90034C8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		861EC64224B90DD9005C2F44 /* SwiftUI Kit iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_KitApp.swift; sourceTree = "<group>"; };
 		861EC64724B90DD9005C2F44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +147,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		2D8F82F924BA011800E90F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF3309D24BAA8B80034C8D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,6 +204,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2DF330A124BAA8B80034C8D0 /* SwiftUI Kit tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				2DF330A624BAA8B90034C8D0 /* Assets.xcassets */,
+				2DF330AB24BAA8B90034C8D0 /* Info.plist */,
+				2DF330A824BAA8B90034C8D0 /* Preview Content */,
+			);
+			path = "SwiftUI Kit tvOS";
+			sourceTree = "<group>";
+		};
+		2DF330A824BAA8B90034C8D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2DF330A924BAA8B90034C8D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		861EC63924B90DD9005C2F44 = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +230,7 @@
 				F95A4E1024B9932000697538 /* macOS */,
 				2D8F82F424BA011700E90F0B /* watchOS */,
 				2D8F830024BA011800E90F0B /* watchOS Extension */,
+				2DF330A124BAA8B80034C8D0 /* SwiftUI Kit tvOS */,
 				861EC64324B90DD9005C2F44 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,6 +242,7 @@
 				F95A4E0F24B9932000697538 /* SwiftUI Kit Mac.app */,
 				2D8F82F324BA011700E90F0B /* SwiftUI Kit watchOS.app */,
 				2D8F82FC24BA011800E90F0B /* SwiftUI Kit watchOS Extension.appex */,
+				2DF330A024BAA8B80034C8D0 /* SwiftUI Kit tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,15 +272,15 @@
 		861EC65424B90DF1005C2F44 /* Groupings */ = {
 			isa = PBXGroup;
 			children = (
-				861EC65A24B91065005C2F44 /* TextGroup.swift */,
+				861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */,
+				861EC66224B912D2005C2F44 /* ColorsGroup.swift */,
 				861EC65C24B9106E005C2F44 /* ControlsGroup.swift */,
 				861EC65E24B91075005C2F44 /* FontsGroup.swift */,
-				861EC66024B912C9005C2F44 /* ShapesGroup.swift */,
-				861EC66224B912D2005C2F44 /* ColorsGroup.swift */,
-				861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */,
-				861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */,
-				861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */,
 				861EC66C24B91F19005C2F44 /* HapticsGroup.swift */,
+				861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */,
+				861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */,
+				861EC66024B912C9005C2F44 /* ShapesGroup.swift */,
+				861EC65A24B91065005C2F44 /* TextGroup.swift */,
 			);
 			path = Groupings;
 			sourceTree = "<group>";
@@ -293,6 +339,23 @@
 			productReference = 2D8F82FC24BA011800E90F0B /* SwiftUI Kit watchOS Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
+		2DF3309F24BAA8B80034C8D0 /* SwiftUI Kit tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF330AE24BAA8B90034C8D0 /* Build configuration list for PBXNativeTarget "SwiftUI Kit tvOS" */;
+			buildPhases = (
+				2DF3309C24BAA8B80034C8D0 /* Sources */,
+				2DF3309D24BAA8B80034C8D0 /* Frameworks */,
+				2DF3309E24BAA8B80034C8D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Kit tvOS";
+			productName = "SwiftUI Kit tvOS";
+			productReference = 2DF330A024BAA8B80034C8D0 /* SwiftUI Kit tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		861EC64124B90DD9005C2F44 /* SwiftUI Kit iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 861EC65124B90DDB005C2F44 /* Build configuration list for PBXNativeTarget "SwiftUI Kit iOS" */;
@@ -344,6 +407,9 @@
 					2D8F82FB24BA011800E90F0B = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					2DF3309F24BAA8B80034C8D0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					861EC64124B90DD9005C2F44 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -369,6 +435,7 @@
 				F95A4E0E24B9932000697538 /* SwiftUI Kit Mac */,
 				2D8F82F224BA011700E90F0B /* SwiftUI Kit watchOS */,
 				2D8F82FB24BA011800E90F0B /* SwiftUI Kit watchOS Extension */,
+				2DF3309F24BAA8B80034C8D0 /* SwiftUI Kit tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -387,6 +454,16 @@
 			files = (
 				2D8F830B24BA011900E90F0B /* Preview Assets.xcassets in Resources */,
 				2D8F830824BA011800E90F0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF3309E24BAA8B80034C8D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF330AA24BAA8B90034C8D0 /* Preview Assets.xcassets in Resources */,
+				2DF330BB24BAAD720034C8D0 /* Assets.xcassets in Resources */,
+				2DF330A724BAA8B90034C8D0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +504,25 @@
 				2D8F831D24BA013E00E90F0B /* TextGroup.swift in Sources */,
 				2D8F830624BA011800E90F0B /* ComplicationController.swift in Sources */,
 				2D8F831924BA013E00E90F0B /* ShapesGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF3309C24BAA8B80034C8D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF330B024BAA8C60034C8D0 /* ShapesGroup.swift in Sources */,
+				2DF330B224BAA8C60034C8D0 /* TextGroup.swift in Sources */,
+				2DF330B824BAA8C60034C8D0 /* ColorsGroup.swift in Sources */,
+				2DF330BA24BAA8C60034C8D0 /* SwiftUI_KitApp.swift in Sources */,
+				2DF330B624BAA8C60034C8D0 /* ButtonsGroup.swift in Sources */,
+				2DF330AF24BAA8C60034C8D0 /* ControlsGroup.swift in Sources */,
+				2DF330B124BAA8C60034C8D0 /* IndicatorsGroup.swift in Sources */,
+				2DF330B524BAA8C60034C8D0 /* ContentView.swift in Sources */,
+				2DF330B924BAA8C60034C8D0 /* SectionView.swift in Sources */,
+				2DF330B324BAA8C60034C8D0 /* FontsGroup.swift in Sources */,
+				2DF330B724BAA8C60034C8D0 /* GroupView.swift in Sources */,
+				2DF330B424BAA8C60034C8D0 /* ImagesGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +662,50 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		2DF330AC24BAA8B90034C8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit tvOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI Kit tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lilsoftware.SwiftUI-Kit-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		2DF330AD24BAA8B90034C8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit tvOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI Kit tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lilsoftware.SwiftUI-Kit-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Release;
 		};
@@ -790,6 +930,15 @@
 			buildConfigurations = (
 				2D8F831124BA011900E90F0B /* Debug */,
 				2D8F831224BA011900E90F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF330AE24BAA8B90034C8D0 /* Build configuration list for PBXNativeTarget "SwiftUI Kit tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF330AC24BAA8B90034C8D0 /* Debug */,
+				2DF330AD24BAA8B90034C8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -204,14 +204,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2DF330A124BAA8B80034C8D0 /* SwiftUI Kit tvOS */ = {
+		2DF330A124BAA8B80034C8D0 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
 				2DF330A624BAA8B90034C8D0 /* Assets.xcassets */,
 				2DF330AB24BAA8B90034C8D0 /* Info.plist */,
 				2DF330A824BAA8B90034C8D0 /* Preview Content */,
 			);
-			path = "SwiftUI Kit tvOS";
+			path = tvOS;
 			sourceTree = "<group>";
 		};
 		2DF330A824BAA8B90034C8D0 /* Preview Content */ = {
@@ -230,7 +230,7 @@
 				F95A4E1024B9932000697538 /* macOS */,
 				2D8F82F424BA011700E90F0B /* watchOS */,
 				2D8F830024BA011800E90F0B /* watchOS Extension */,
-				2DF330A124BAA8B80034C8D0 /* SwiftUI Kit tvOS */,
+				2DF330A124BAA8B80034C8D0 /* tvOS */,
 				861EC64324B90DD9005C2F44 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -671,15 +671,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit tvOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"tvOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Kit tvOS/Info.plist";
+				INFOPLIST_FILE = tvOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRIVATE_HEADERS_FOLDER_PATH = tvOS/PrivateHeaders;
 				PRODUCT_BUNDLE_IDENTIFIER = "lilsoftware.SwiftUI-Kit-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = tvOS/Headers;
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -693,15 +695,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit tvOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"tvOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Kit tvOS/Info.plist";
+				INFOPLIST_FILE = tvOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRIVATE_HEADERS_FOLDER_PATH = tvOS/PrivateHeaders;
 				PRODUCT_BUNDLE_IDENTIFIER = "lilsoftware.SwiftUI-Kit-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = tvOS/Headers;
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;

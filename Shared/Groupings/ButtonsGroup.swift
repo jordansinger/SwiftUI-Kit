@@ -45,6 +45,7 @@ struct ButtonsGroup: View {
                             #endif
                         }
                         
+                        #if !os(OSX)
                         Button(action: {
                             self.showingActionSheet = true
                         }) {
@@ -58,6 +59,7 @@ struct ButtonsGroup: View {
                                 .cancel()
                             ])
                         }
+                        #endif
                     }
                 }
             )

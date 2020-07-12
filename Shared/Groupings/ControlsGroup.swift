@@ -24,8 +24,10 @@ struct ControlsGroup: View {
                 Group {
                     Toggle("Vibrate on Ring", isOn: $vibrateOnRing)
                     
+                    #if !os(tvOS)
                     Toggle("Vibrate on Silent", isOn: $vibrateOnSilent)
                         .toggleStyle(SwitchToggleStyle())
+                    #endif
                 }
             }
             
@@ -69,6 +71,7 @@ struct ControlsGroup: View {
             }
             #endif
             
+            #if !os(tvOS)
             SectionView(title: "Slider", description: "A control for selecting a value from a bounded linear range of values. It can slide continuously, or snap to fixed increments.") {
                 Group {
                     Slider(value: $volume, in: 0...100, minimumValueLabel: Text("0%"), maximumValueLabel: Text("100%"), label: { Text("Volume") })
@@ -76,6 +79,7 @@ struct ControlsGroup: View {
                     Slider(value: $rating, in: 1...10, step: 1, minimumValueLabel: Text("0"), maximumValueLabel: Text("10"), label: { Text("Rating") })
                 }
             }
+            #endif
             
             #if os(iOS) || os(OSX)
             SectionView(title: "Stepper", description: "A control used to perform semantic increment and decrement actions.") {

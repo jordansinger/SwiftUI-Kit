@@ -1,16 +1,16 @@
 # SwiftUI Kit
-A SwiftUI system components and interactions demo app based on iOS 14, macOS Big Sur, and watchOS 7.
+A SwiftUI system components and interactions demo app based on iOS 14, macOS Big Sur, watchOS 7, and tvOS 14.
 
 ![SwiftUI Kit](https://user-images.githubusercontent.com/110813/87210094-5accf380-c2e2-11ea-91c9-4f21aa313bc6.png)
 
 Use the SwiftUI Kit app to see how SwiftUI views appear and interact when using the system defaults. You can view the source to see how particular examples work.
 
-Includes Buttons, Colors, Controls, Fonts, Haptics, Images, Indicators, Shapes, and Text. 
+Includes Buttons, Colors, Controls, Fonts, Haptics, Images, Indicators, Shapes, Text, and more. 
 
 ![SwiftUI Kit examples](https://user-images.githubusercontent.com/110813/87210295-00806280-c2e3-11ea-91e3-4ea6da79f73e.png)
 
 #### To run
-Make sure you're using [Xcode 12+](https://developer.apple.com/xcode/) as well as a device running iOS 14+. Works on iPhone, iPad, and Mac.
+Make sure you're using [Xcode 12+](https://developer.apple.com/xcode/) as well as a device running iOS 14+. Works on iPhone, iPad, Mac, Apple Watch, and Apple TV.
 
 #### Accent color
 To change the accent color and see how it affects the system components, go to the AccentColor section of Assets.xcassets in Xcode. You can then change the Light and Dark accent colors that will be applied to the app.

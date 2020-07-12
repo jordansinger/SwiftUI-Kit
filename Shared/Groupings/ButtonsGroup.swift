@@ -45,7 +45,7 @@ struct ButtonsGroup: View {
                             #endif
                         }
                         
-                        #if os(iOS)
+                        #if !os(OSX)
                         Button(action: {
                             self.showingActionSheet = true
                         }) {
@@ -64,7 +64,7 @@ struct ButtonsGroup: View {
                 }
             )
             
-            #if os(iOS) || os(OSX)
+            #if !os(watchOS) && !os(tvOS)
             SectionView(
                 title: "Link",
                 description: "A control for navigating to a URL.",
@@ -74,7 +74,7 @@ struct ButtonsGroup: View {
             )
             #endif
             
-            #if !os(watchOS)
+            #if !os(watchOS) && !os(tvOS)
             SectionView(
                 title: "Menu",
                 description: "A control for presenting a contextually-appropriate menu of buttons.",

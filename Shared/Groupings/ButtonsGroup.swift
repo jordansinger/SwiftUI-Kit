@@ -99,11 +99,15 @@ struct ButtonsGroup: View {
                         }
                         #endif
                         
-                        #if os(iOS)
+                        #if os(iOS) || os(macOS)
                         HStack {
+                            #if os(iOS)
                             Text("Show Menu")
                             Spacer()
                             Text("Press & hold").italic().foregroundColor(.secondary)
+                            #elseif os(macOS)
+                            Text("Right click")
+                            #endif
                         }
                         .contextMenu {
                             Button("Button") {}

@@ -151,15 +151,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D8F82F424BA011700E90F0B /* SwiftUI Kit watchOS */ = {
+		2D8F82F424BA011700E90F0B /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
 				2D8F82F724BA011800E90F0B /* Info.plist */,
 			);
-			path = "SwiftUI Kit watchOS";
+			path = watchOS;
 			sourceTree = "<group>";
 		};
-		2D8F830024BA011800E90F0B /* SwiftUI Kit watchOS Extension */ = {
+		2D8F830024BA011800E90F0B /* watchOS Extension */ = {
 			isa = PBXGroup;
 			children = (
 				2D8F830524BA011800E90F0B /* ComplicationController.swift */,
@@ -167,7 +167,7 @@
 				2D8F830C24BA011900E90F0B /* Info.plist */,
 				2D8F830924BA011900E90F0B /* Preview Content */,
 			);
-			path = "SwiftUI Kit watchOS Extension";
+			path = "watchOS Extension";
 			sourceTree = "<group>";
 		};
 		2D8F830924BA011900E90F0B /* Preview Content */ = {
@@ -181,11 +181,11 @@
 		861EC63924B90DD9005C2F44 = {
 			isa = PBXGroup;
 			children = (
-				F9E3381324B9A1DC00D233B7 /* SwiftUI Kit iOS */,
-				861EC64424B90DD9005C2F44 /* SwiftUI Kit */,
-				F95A4E1024B9932000697538 /* SwiftUI Kit Mac */,
-				2D8F82F424BA011700E90F0B /* SwiftUI Kit watchOS */,
-				2D8F830024BA011800E90F0B /* SwiftUI Kit watchOS Extension */,
+				861EC64424B90DD9005C2F44 /* Shared */,
+				F9E3381324B9A1DC00D233B7 /* iOS */,
+				F95A4E1024B9932000697538 /* macOS */,
+				2D8F82F424BA011700E90F0B /* watchOS */,
+				2D8F830024BA011800E90F0B /* watchOS Extension */,
 				861EC64324B90DD9005C2F44 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -201,7 +201,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		861EC64424B90DD9005C2F44 /* SwiftUI Kit */ = {
+		861EC64424B90DD9005C2F44 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */,
@@ -212,7 +212,7 @@
 				861EC64924B90DDB005C2F44 /* Assets.xcassets */,
 				861EC64B24B90DDB005C2F44 /* Preview Content */,
 			);
-			path = "SwiftUI Kit";
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		861EC64B24B90DDB005C2F44 /* Preview Content */ = {
@@ -239,21 +239,21 @@
 			path = Groupings;
 			sourceTree = "<group>";
 		};
-		F95A4E1024B9932000697538 /* SwiftUI Kit Mac */ = {
+		F95A4E1024B9932000697538 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
 				F95A4E1A24B9932200697538 /* Info.plist */,
 				F95A4E1B24B9932200697538 /* SwiftUI_Kit_Mac.entitlements */,
 			);
-			path = "SwiftUI Kit Mac";
+			path = macOS;
 			sourceTree = "<group>";
 		};
-		F9E3381324B9A1DC00D233B7 /* SwiftUI Kit iOS */ = {
+		F9E3381324B9A1DC00D233B7 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				861EC64E24B90DDB005C2F44 /* Info.plist */,
 			);
-			path = "SwiftUI Kit iOS";
+			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -493,7 +493,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				IBSC_MODULE = SwiftUI_Kit_watchOS_Extension;
-				INFOPLIST_FILE = "SwiftUI Kit watchOS/Info.plist";
+				INFOPLIST_FILE = watchOS/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "example.SwiftUI-Kit.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -512,7 +512,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				IBSC_MODULE = SwiftUI_Kit_watchOS_Extension;
-				INFOPLIST_FILE = "SwiftUI Kit watchOS/Info.plist";
+				INFOPLIST_FILE = watchOS/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "example.SwiftUI-Kit.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -528,9 +528,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit watchOS Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"watchOS Extension/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Kit watchOS Extension/Info.plist";
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,9 +551,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit watchOS Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"watchOS Extension/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Kit watchOS Extension/Info.plist";
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -691,9 +691,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Kit iOS/Info.plist";
+				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -712,9 +712,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Kit iOS/Info.plist";
+				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -732,18 +732,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "SwiftUI Kit Mac/SwiftUI_Kit_Mac.entitlements";
+				CODE_SIGN_ENTITLEMENTS = macOS/SwiftUI_Kit_Mac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Kit Mac/Info.plist";
+				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = "example.SwiftUI-Kit-Mac";
+				PRODUCT_BUNDLE_IDENTIFIER = "lilsoftware-Kit-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -755,18 +755,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "SwiftUI Kit Mac/SwiftUI_Kit_Mac.entitlements";
+				CODE_SIGN_ENTITLEMENTS = macOS/SwiftUI_Kit_Mac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Kit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Kit Mac/Info.plist";
+				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = "example.SwiftUI-Kit-Mac";
+				PRODUCT_BUNDLE_IDENTIFIER = "lilsoftware.SwiftUI-Kit-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;

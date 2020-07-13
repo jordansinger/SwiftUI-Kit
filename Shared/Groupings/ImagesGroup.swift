@@ -14,7 +14,7 @@ struct ImagesGroup: View {
                 title: "Image",
                 description: "A view that displays an environment-dependent image.",
                 content: {
-                    Image("Image")
+                    Image("Waterfall")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(maxHeight: 128)

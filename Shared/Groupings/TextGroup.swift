@@ -37,6 +37,14 @@ struct TextGroup: View {
                     SecureField("Password", text: $password)
                 }
             )
+
+            SectionView(
+                title: "Redacted",
+                description: "Modifier which hides the text, for example while loading.",
+                content: {
+                    Text("You cannot read me").redacted(reason: .placeholder)
+                }
+            )
             
             #if os(iOS) || os(OSX)
             SectionView(

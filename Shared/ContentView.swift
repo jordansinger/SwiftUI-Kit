@@ -22,6 +22,9 @@ struct ContentView: View {
             Grouping(title: "Indicators", icon: "speedometer", content: { IndicatorsGroup() })
             Grouping(title: "Shapes", icon: "square.on.circle", content: { ShapesGroup() })
             Grouping(title: "Text", icon: "text.aligncenter", content: { TextGroup() })
+            #if !os(watchOS)
+            Grouping(title: "Map", icon: "map", content: { MapGroup() })
+            #endif
         }
     }
 

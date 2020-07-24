@@ -63,6 +63,9 @@
 		F95A4E2924B9938100697538 /* FontsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65E24B91075005C2F44 /* FontsGroup.swift */; };
 		F95A4E2A24B9938100697538 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66424B914FB005C2F44 /* SectionView.swift */; };
 		F95A4E2C24B9938500697538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861EC64924B90DDB005C2F44 /* Assets.xcassets */; };
+		F9E8C6F924C7E46C000A2F66 /* MapGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8C6F824C7E46C000A2F66 /* MapGroup.swift */; };
+		F9E8C6FA24C7E46C000A2F66 /* MapGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8C6F824C7E46C000A2F66 /* MapGroup.swift */; };
+		F9E8C6FC24C7E46C000A2F66 /* MapGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8C6F824C7E46C000A2F66 /* MapGroup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +138,7 @@
 		F95A4E0F24B9932000697538 /* SwiftUI Kit Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95A4E1A24B9932200697538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95A4E1B24B9932200697538 /* SwiftUI_Kit_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Kit_Mac.entitlements; sourceTree = "<group>"; };
+		F9E8C6F824C7E46C000A2F66 /* MapGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +257,7 @@
 				861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */,
 				861EC66024B912C9005C2F44 /* ShapesGroup.swift */,
 				861EC65A24B91065005C2F44 /* TextGroup.swift */,
+				F9E8C6F824C7E46C000A2F66 /* MapGroup.swift */,
 			);
 			path = Groupings;
 			sourceTree = "<group>";
@@ -479,6 +484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E8C6FC24C7E46C000A2F66 /* MapGroup.swift in Sources */,
 				2DF330B024BAA8C60034C8D0 /* ShapesGroup.swift in Sources */,
 				2DF330B224BAA8C60034C8D0 /* TextGroup.swift in Sources */,
 				2DF330B824BAA8C60034C8D0 /* ColorsGroup.swift in Sources */,
@@ -498,6 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E8C6F924C7E46C000A2F66 /* MapGroup.swift in Sources */,
 				861EC65F24B91075005C2F44 /* FontsGroup.swift in Sources */,
 				861EC65B24B91065005C2F44 /* TextGroup.swift in Sources */,
 				861EC66524B914FB005C2F44 /* SectionView.swift in Sources */,
@@ -518,6 +525,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E8C6FA24C7E46C000A2F66 /* MapGroup.swift in Sources */,
 				F95A4E2424B9938100697538 /* ButtonsGroup.swift in Sources */,
 				F95A4E2224B9938100697538 /* ImagesGroup.swift in Sources */,
 				F95A4E1F24B9936000697538 /* SwiftUI_KitApp.swift in Sources */,

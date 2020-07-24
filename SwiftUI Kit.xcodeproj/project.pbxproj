@@ -566,7 +566,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				IBSC_MODULE = SwiftUI_Kit_watchOS_Extension;
 				INFOPLIST_FILE = watchOS/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "example.SwiftUI-Kit.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.kit.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -585,7 +585,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				IBSC_MODULE = SwiftUI_Kit_watchOS_Extension;
 				INFOPLIST_FILE = watchOS/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "example.SwiftUI-Kit.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.kit.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -608,7 +608,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "example.SwiftUI-Kit.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.kit.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -631,7 +631,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "example.SwiftUI-Kit.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.kit.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -819,7 +819,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "example.SwiftUI-Kit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.kit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -840,7 +840,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "example.SwiftUI-Kit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.kit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -16,7 +16,10 @@ struct ContentView: View {
             Grouping(title: "Controls", icon: "slider.horizontal.3", content: { ControlsGroup() })
             Grouping(title: "Fonts", icon: "textformat", content: { FontsGroup() })
             #if os(iOS)
-            Grouping(title: "Haptics", icon: "hand.tap", content: { HapticsGroup() })
+            Group{
+            Grouping(title: "Haptics", icon: "waveform", content: { HapticsGroup() })
+            Grouping(title: "Gestures", icon: "hand.tap", content: { GesturesGroup() })
+            }
             #endif
             Grouping(title: "Images", icon: "photo", content: { ImagesGroup() })
             Grouping(title: "Indicators", icon: "speedometer", content: { IndicatorsGroup() })

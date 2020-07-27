@@ -10,7 +10,17 @@ import SwiftUI
 struct GesturesGroup: View {
     var body: some View {
         Group{
-
+            SectionView(description: "Tap"){
+                TapGestureBlock()
+            }
+            
+            SectionView(description: "Drag"){
+                DragGestureBlock()
+            }
+            
+            SectionView(description: "Long Press"){
+                LongPressGestureBlock()
+            }
         }
     }
 }
@@ -19,8 +29,10 @@ struct TapGestureBlock : View {
     @State var count = 1
     @State var text = "Tap Gesture"
     var body : some View {
-        Text(text)
-            .onTapGesture(count:count,perform:tapped)
+        Group{
+            Text(text)
+        }
+        .onTapGesture(count:count,perform:tapped)
     }
     func tapped(){
         self.text = "Tap count : \(count)"
@@ -33,11 +45,12 @@ struct DragGestureBlock : View {
     
     var body : some View {
         Text("Drag Gesture")
+            .gesture(drag)
             .foregroundColor(isDragging ? .pink : .accentColor)
     }
     
     var drag: some Gesture {
-        DragGesture()
+        DragGesture(minimumDistance: 10, coordinateSpace: .local)
             .onChanged { _ in self.isDragging = true }
             .onEnded { _ in self.isDragging = false }
     }

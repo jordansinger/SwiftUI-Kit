@@ -10,7 +10,7 @@ import SwiftUI
 struct GesturesGroup: View {
     var body: some View {
         Group{
-            Text("Hello, World!")
+
         }
     }
 }
@@ -60,7 +60,13 @@ struct LongPressGestureBlock: View {
     
     var body: some View {
         Text("LongPress Gesture")
+            .foregroundColor(textColor())
             .gesture(longPress)
+    }
+    
+    func textColor()->Color{
+        return self.isDetectingLongPress ? Color.red :
+            (self.completedLongPress ? Color.green : Color.blue)
     }
 }
 

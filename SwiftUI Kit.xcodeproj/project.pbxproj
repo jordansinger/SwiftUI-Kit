@@ -35,6 +35,7 @@
 		2DF330B924BAA8C60034C8D0 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66424B914FB005C2F44 /* SectionView.swift */; };
 		2DF330BA24BAA8C60034C8D0 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
 		2DF330BB24BAAD720034C8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861EC64924B90DDB005C2F44 /* Assets.xcassets */; };
+		5BE8E05524CE87CB005E833D /* GesturesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8E05424CE87CB005E833D /* GesturesGroup.swift */; };
 		861EC64624B90DD9005C2F44 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
 		861EC64824B90DD9005C2F44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
 		861EC64A24B90DDB005C2F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861EC64924B90DDB005C2F44 /* Assets.xcassets */; };
@@ -118,6 +119,7 @@
 		2D8F830C24BA011900E90F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DF330A024BAA8B80034C8D0 /* SwiftUI Kit tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF330AB24BAA8B90034C8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE8E05424CE87CB005E833D /* GesturesGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesGroup.swift; sourceTree = "<group>"; };
 		861EC64224B90DD9005C2F44 /* SwiftUI Kit iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_KitApp.swift; sourceTree = "<group>"; };
 		861EC64724B90DD9005C2F44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				861EC65C24B9106E005C2F44 /* ControlsGroup.swift */,
 				861EC65E24B91075005C2F44 /* FontsGroup.swift */,
 				861EC66C24B91F19005C2F44 /* HapticsGroup.swift */,
+				5BE8E05424CE87CB005E833D /* GesturesGroup.swift */,
 				861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */,
 				861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */,
 				861EC66024B912C9005C2F44 /* ShapesGroup.swift */,
@@ -507,6 +510,7 @@
 				F9E8C6F924C7E46C000A2F66 /* MapGroup.swift in Sources */,
 				861EC65F24B91075005C2F44 /* FontsGroup.swift in Sources */,
 				861EC65B24B91065005C2F44 /* TextGroup.swift in Sources */,
+				5BE8E05524CE87CB005E833D /* GesturesGroup.swift in Sources */,
 				861EC66524B914FB005C2F44 /* SectionView.swift in Sources */,
 				861EC66924B91D4E005C2F44 /* IndicatorsGroup.swift in Sources */,
 				861EC66724B91AE8005C2F44 /* ButtonsGroup.swift in Sources */,

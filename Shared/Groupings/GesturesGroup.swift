@@ -28,6 +28,21 @@ struct TapGestureBlock : View {
     }
 }
 
+struct DragGestureBlock : View {
+    @State var isDragging = false
+    
+    var body : some View {
+        Text("Drag Gesture")
+            .foregroundColor(isDragging ? .pink : .accentColor)
+    }
+    
+    var drag: some Gesture {
+        DragGesture()
+            .onChanged { _ in self.isDragging = true }
+            .onEnded { _ in self.isDragging = false }
+    }
+}
+
 struct GesturesGroup_Previews: PreviewProvider {
     static var previews: some View {
         GesturesGroup()

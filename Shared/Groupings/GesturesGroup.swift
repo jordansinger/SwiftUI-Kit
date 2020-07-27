@@ -79,7 +79,7 @@ struct LongPressGestureBlock: View {
     
     func textColor()->Color{
         return self.isDetectingLongPress ? Color.red :
-            (self.completedLongPress ? Color.green : Color.blue)
+            (self.completedLongPress ? .green : .accentColor)
     }
 }
 

@@ -9,7 +9,22 @@ import SwiftUI
 
 struct GesturesGroup: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Group{
+            Text("Hello, World!")
+        }
+    }
+}
+
+struct TapGestureBlock : View {
+    @State var count = 1
+    @State var text = "Tap Gesture"
+    var body : some View {
+        Text(text)
+            .onTapGesture(count:count,perform:tapped)
+    }
+    func tapped(){
+        self.text = "Tap count : \(count)"
+        self.count += 1
     }
 }
 

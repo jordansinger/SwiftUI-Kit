@@ -10,15 +10,15 @@ import SwiftUI
 struct GesturesGroup: View {
     var body: some View {
         Group{
-            SectionView(description: "Tap"){
+            SectionView(description: "A Gesture that counts the number of taps."){
                 TapGestureBlock()
             }
             
-            SectionView(description: "Drag"){
+            SectionView(description: "A Gesture that detects drag motion."){
                 DragGestureBlock()
             }
             
-            SectionView(description: "Long Press"){
+            SectionView(description: "A Gesture that detects a Long Press."){
                 LongPressGestureBlock()
             }
         }

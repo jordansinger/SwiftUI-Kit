@@ -52,11 +52,10 @@ struct DragGestureBlock : View {
     var drag: some Gesture {
         DragGesture(minimumDistance: 10, coordinateSpace: .local)
             .onChanged { value in
-                let y =
-                self.color = (value.predictedEndTranslation.height > 150) ? .green : .pink
+                self.color = (value.distance > 300) ? .green : .red
             }
             .onEnded { _ in
-                
+                self.color = (self.color == .green) ? .green : .accentColor
             }
     }
 }
@@ -96,6 +95,6 @@ struct GesturesGroup_Previews: PreviewProvider {
 
 extension DragGesture.Value {
     var distance: CGFloat {
-        return sqrt(pow(self.predictedEndLocation.x,2) + pow(self.predictedEndLocation.y),2)
+        return sqrt(pow(self.predictedEndLocation.x,2) + pow(self.predictedEndLocation.y,2))
     }
 }

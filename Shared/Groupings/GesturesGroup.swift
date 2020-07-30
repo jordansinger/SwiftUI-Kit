@@ -41,18 +41,23 @@ struct TapGestureBlock : View {
 }
 
 struct DragGestureBlock : View {
-    @State var isDragging = false
+    @State var color : Color = .accentColor
     
     var body : some View {
         Text("Drag Gesture")
             .gesture(drag)
-            .foregroundColor(isDragging ? .pink : .accentColor)
+            .foregroundColor(color)
     }
     
     var drag: some Gesture {
         DragGesture(minimumDistance: 10, coordinateSpace: .local)
-            .onChanged { _ in self.isDragging = true }
-            .onEnded { _ in self.isDragging = false }
+            .onChanged { value in
+                let y =
+                self.color = (value.predictedEndTranslation.height > 150) ? .green : .pink
+            }
+            .onEnded { _ in
+                
+            }
     }
 }
 
@@ -86,5 +91,11 @@ struct LongPressGestureBlock: View {
 struct GesturesGroup_Previews: PreviewProvider {
     static var previews: some View {
         GesturesGroup()
+    }
+}
+
+extension DragGesture.Value {
+    var distance: CGFloat {
+        return sqrt(pow(self.predictedEndLocation.x,2) + pow(self.predictedEndLocation.y),2)
     }
 }

@@ -27,10 +27,16 @@ struct GesturesGroup: View {
 
 struct TapGestureBlock : View {
     @State var count = 1
-    @State var text = "Tap Gesture"
+    @State var text = "Tap Count : 0"
     var body : some View {
         Group{
+            HStack{
+            Text("Tap Gesture")
+                Spacer()
             Text(text)
+                .font(.caption)
+                .foregroundColor(.secondary)
+            }
         }
         .onTapGesture(count:count,perform:tapped)
     }
@@ -54,8 +60,8 @@ struct DragGestureBlock : View {
             .onChanged { value in
                 self.color = (value.distance > 300) ? .green : .red
             }
-            .onEnded { _ in
-                self.color = (self.color == .green) ? .green : .accentColor
+            .onEnded { value in
+                self.color = (value.distance > 300) ? .green : .accentColor
             }
     }
 }

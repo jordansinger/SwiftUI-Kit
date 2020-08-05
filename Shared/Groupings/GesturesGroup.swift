@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct GesturesGroup: View {
+    
+    @State private var tapGestureBlock = TapGestureBlock()
     var body: some View {
         Group{
-            SectionView(description: "A Gesture that counts the number of taps."){
-                TapGestureBlock()
+            SectionView(description: "A Gesture that counts the number of taps.") {
+                tapGestureBlock
             }
+            //			.onTapGesture(count: tapGestureBlock.count, perform: tapGestureBlock.tapped)
             
-            SectionView(description: "A Gesture that detects drag motion."){
+            SectionView(description: "A Gesture that detects drag motion.") {
                 DragGestureBlock()
             }
             
-            SectionView(description: "A Gesture that detects a Long Press."){
+            SectionView(description: "A Gesture that detects a Long Press.") {
                 LongPressGestureBlock()
             }
         }
@@ -31,14 +34,14 @@ struct TapGestureBlock : View {
     var body : some View {
         Group{
             HStack{
-            Text("Tap Gesture")
+                Text("Tap Gesture")
                 Spacer()
-            Text(text)
-                .font(.caption)
-                .foregroundColor(.secondary)
+                Text(text)
+                    .font(.caption)
+                    .foregroundColor(.secondary)
             }
         }
-        .onTapGesture(count:count,perform:tapped)
+        .onTapGesture(count: count, perform: tapped)
     }
     func tapped(){
         self.text = "Tap count : \(count)"

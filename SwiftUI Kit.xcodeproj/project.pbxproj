@@ -140,7 +140,6 @@
 		861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsGroup.swift; sourceTree = "<group>"; };
 		861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesGroup.swift; sourceTree = "<group>"; };
 		861EC66C24B91F19005C2F44 /* HapticsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsGroup.swift; sourceTree = "<group>"; };
-		97DF0A4B24DA6DE200F829B9 /* SwiftUI Kit watchOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftUI Kit watchOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		97DF0A4C24DA6DE300F829B9 /* ButtonModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
 		97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsGroup.swift; sourceTree = "<group>"; };
 		F95A4E0F24B9932000697538 /* SwiftUI Kit Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -268,7 +267,6 @@
 				861EC66024B912C9005C2F44 /* ShapesGroup.swift */,
 				861EC65A24B91065005C2F44 /* TextGroup.swift */,
 				F9E8C6F824C7E46C000A2F66 /* MapGroup.swift */,
-				97DF0A4B24DA6DE200F829B9 /* SwiftUI Kit watchOS-Bridging-Header.h */,
 			);
 			path = Groupings;
 			sourceTree = "<group>";
@@ -582,7 +580,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GFGJV6265F;
+				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = SwiftUI_Kit_watchOS_Extension;
 				INFOPLIST_FILE = watchOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -610,7 +608,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GFGJV6265F;
+				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = SwiftUI_Kit_watchOS_Extension;
 				INFOPLIST_FILE = watchOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -635,7 +633,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
-				DEVELOPMENT_TEAM = GFGJV6265F;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "watchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -659,7 +657,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
-				DEVELOPMENT_TEAM = GFGJV6265F;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "watchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -684,7 +682,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "Shared/Preview\\ Content";
-				DEVELOPMENT_TEAM = GFGJV6265F;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = tvOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -709,7 +707,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "Shared/Preview\\ Content";
-				DEVELOPMENT_TEAM = GFGJV6265F;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = tvOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -850,7 +848,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
-				DEVELOPMENT_TEAM = GFGJV6265F;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -872,7 +870,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
-				DEVELOPMENT_TEAM = GFGJV6265F;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -896,7 +894,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
-				DEVELOPMENT_TEAM = GFGJV6265F;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

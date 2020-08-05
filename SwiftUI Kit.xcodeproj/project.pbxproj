@@ -19,7 +19,6 @@
 		2D8F831F24BA013E00E90F0B /* ColorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66224B912D2005C2F44 /* ColorsGroup.swift */; };
 		2D8F832024BA013E00E90F0B /* ControlsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65C24B9106E005C2F44 /* ControlsGroup.swift */; };
 		2D8F832124BA013E00E90F0B /* FontsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65E24B91075005C2F44 /* FontsGroup.swift */; };
-		2D8F832224BA013E00E90F0B /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */; };
 		2DC7DE5624BA0D9A00A84252 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
 		2DC7DE5724BA0D9A00A84252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
 		2DF330AF24BAA8C60034C8D0 /* ControlsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65C24B9106E005C2F44 /* ControlsGroup.swift */; };
@@ -29,7 +28,6 @@
 		2DF330B324BAA8C60034C8D0 /* FontsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65E24B91075005C2F44 /* FontsGroup.swift */; };
 		2DF330B424BAA8C60034C8D0 /* ImagesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */; };
 		2DF330B524BAA8C60034C8D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
-		2DF330B624BAA8C60034C8D0 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */; };
 		2DF330B724BAA8C60034C8D0 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65524B90E16005C2F44 /* GroupView.swift */; };
 		2DF330B824BAA8C60034C8D0 /* ColorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66224B912D2005C2F44 /* ColorsGroup.swift */; };
 		2DF330B924BAA8C60034C8D0 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66424B914FB005C2F44 /* SectionView.swift */; };
@@ -47,16 +45,22 @@
 		861EC66124B912C9005C2F44 /* ShapesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66024B912C9005C2F44 /* ShapesGroup.swift */; };
 		861EC66324B912D2005C2F44 /* ColorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66224B912D2005C2F44 /* ColorsGroup.swift */; };
 		861EC66524B914FB005C2F44 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66424B914FB005C2F44 /* SectionView.swift */; };
-		861EC66724B91AE8005C2F44 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */; };
 		861EC66924B91D4E005C2F44 /* IndicatorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */; };
 		861EC66B24B91E1D005C2F44 /* ImagesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */; };
 		861EC66D24B91F19005C2F44 /* HapticsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66C24B91F19005C2F44 /* HapticsGroup.swift */; };
+		97DF0A4E24DA6DE300F829B9 /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4C24DA6DE300F829B9 /* ButtonModifiers.swift */; };
+		97DF0A4F24DA6DE300F829B9 /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4C24DA6DE300F829B9 /* ButtonModifiers.swift */; };
+		97DF0A5024DA6DE300F829B9 /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4C24DA6DE300F829B9 /* ButtonModifiers.swift */; };
+		97DF0A5124DA6DE300F829B9 /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4C24DA6DE300F829B9 /* ButtonModifiers.swift */; };
+		97DF0A5224DA6DE300F829B9 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */; };
+		97DF0A5324DA6DE300F829B9 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */; };
+		97DF0A5424DA6DE300F829B9 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */; };
+		97DF0A5524DA6DE300F829B9 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */; };
 		F95A4E1F24B9936000697538 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
 		F95A4E2024B9937800697538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
 		F95A4E2124B9938100697538 /* ShapesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66024B912C9005C2F44 /* ShapesGroup.swift */; };
 		F95A4E2224B9938100697538 /* ImagesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */; };
 		F95A4E2324B9938100697538 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65524B90E16005C2F44 /* GroupView.swift */; };
-		F95A4E2424B9938100697538 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */; };
 		F95A4E2524B9938100697538 /* ColorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66224B912D2005C2F44 /* ColorsGroup.swift */; };
 		F95A4E2624B9938100697538 /* ControlsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65C24B9106E005C2F44 /* ControlsGroup.swift */; };
 		F95A4E2724B9938100697538 /* TextGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65A24B91065005C2F44 /* TextGroup.swift */; };
@@ -133,10 +137,12 @@
 		861EC66024B912C9005C2F44 /* ShapesGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesGroup.swift; sourceTree = "<group>"; };
 		861EC66224B912D2005C2F44 /* ColorsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsGroup.swift; sourceTree = "<group>"; };
 		861EC66424B914FB005C2F44 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
-		861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsGroup.swift; sourceTree = "<group>"; };
 		861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsGroup.swift; sourceTree = "<group>"; };
 		861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesGroup.swift; sourceTree = "<group>"; };
 		861EC66C24B91F19005C2F44 /* HapticsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsGroup.swift; sourceTree = "<group>"; };
+		97DF0A4B24DA6DE200F829B9 /* SwiftUI Kit watchOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftUI Kit watchOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		97DF0A4C24DA6DE300F829B9 /* ButtonModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
+		97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsGroup.swift; sourceTree = "<group>"; };
 		F95A4E0F24B9932000697538 /* SwiftUI Kit Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95A4E1A24B9932200697538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95A4E1B24B9932200697538 /* SwiftUI_Kit_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Kit_Mac.entitlements; sourceTree = "<group>"; };
@@ -250,7 +256,8 @@
 		861EC65424B90DF1005C2F44 /* Groupings */ = {
 			isa = PBXGroup;
 			children = (
-				861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */,
+				97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */,
+				97DF0A4C24DA6DE300F829B9 /* ButtonModifiers.swift */,
 				861EC66224B912D2005C2F44 /* ColorsGroup.swift */,
 				861EC65C24B9106E005C2F44 /* ControlsGroup.swift */,
 				861EC65E24B91075005C2F44 /* FontsGroup.swift */,
@@ -261,6 +268,7 @@
 				861EC66024B912C9005C2F44 /* ShapesGroup.swift */,
 				861EC65A24B91065005C2F44 /* TextGroup.swift */,
 				F9E8C6F824C7E46C000A2F66 /* MapGroup.swift */,
+				97DF0A4B24DA6DE200F829B9 /* SwiftUI Kit watchOS-Bridging-Header.h */,
 			);
 			path = Groupings;
 			sourceTree = "<group>";
@@ -383,6 +391,7 @@
 				TargetAttributes = {
 					2D8F82F224BA011700E90F0B = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 					2D8F82FB24BA011800E90F0B = {
 						CreatedOnToolsVersion = 12.0;
@@ -473,10 +482,11 @@
 				2DC7DE5624BA0D9A00A84252 /* SwiftUI_KitApp.swift in Sources */,
 				2D8F831F24BA013E00E90F0B /* ColorsGroup.swift in Sources */,
 				2D8F831B24BA013E00E90F0B /* ImagesGroup.swift in Sources */,
-				2D8F832224BA013E00E90F0B /* ButtonsGroup.swift in Sources */,
 				2D8F831824BA013E00E90F0B /* GroupView.swift in Sources */,
+				97DF0A5424DA6DE300F829B9 /* ButtonsGroup.swift in Sources */,
 				2D8F832024BA013E00E90F0B /* ControlsGroup.swift in Sources */,
 				2DC7DE5724BA0D9A00A84252 /* ContentView.swift in Sources */,
+				97DF0A5024DA6DE300F829B9 /* ButtonModifiers.swift in Sources */,
 				2D8F831D24BA013E00E90F0B /* TextGroup.swift in Sources */,
 				2D8F830624BA011800E90F0B /* ComplicationController.swift in Sources */,
 				2D8F831924BA013E00E90F0B /* ShapesGroup.swift in Sources */,
@@ -492,11 +502,12 @@
 				2DF330B224BAA8C60034C8D0 /* TextGroup.swift in Sources */,
 				2DF330B824BAA8C60034C8D0 /* ColorsGroup.swift in Sources */,
 				2DF330BA24BAA8C60034C8D0 /* SwiftUI_KitApp.swift in Sources */,
-				2DF330B624BAA8C60034C8D0 /* ButtonsGroup.swift in Sources */,
 				2DF330AF24BAA8C60034C8D0 /* ControlsGroup.swift in Sources */,
 				2DF330B124BAA8C60034C8D0 /* IndicatorsGroup.swift in Sources */,
+				97DF0A5524DA6DE300F829B9 /* ButtonsGroup.swift in Sources */,
 				2DF330B524BAA8C60034C8D0 /* ContentView.swift in Sources */,
 				2DF330B924BAA8C60034C8D0 /* SectionView.swift in Sources */,
+				97DF0A5124DA6DE300F829B9 /* ButtonModifiers.swift in Sources */,
 				2DF330B324BAA8C60034C8D0 /* FontsGroup.swift in Sources */,
 				2DF330B724BAA8C60034C8D0 /* GroupView.swift in Sources */,
 				2DF330B424BAA8C60034C8D0 /* ImagesGroup.swift in Sources */,
@@ -513,13 +524,14 @@
 				5BE8E05524CE87CB005E833D /* GesturesGroup.swift in Sources */,
 				861EC66524B914FB005C2F44 /* SectionView.swift in Sources */,
 				861EC66924B91D4E005C2F44 /* IndicatorsGroup.swift in Sources */,
-				861EC66724B91AE8005C2F44 /* ButtonsGroup.swift in Sources */,
 				861EC64824B90DD9005C2F44 /* ContentView.swift in Sources */,
 				861EC66D24B91F19005C2F44 /* HapticsGroup.swift in Sources */,
 				861EC66324B912D2005C2F44 /* ColorsGroup.swift in Sources */,
+				97DF0A5224DA6DE300F829B9 /* ButtonsGroup.swift in Sources */,
 				861EC66B24B91E1D005C2F44 /* ImagesGroup.swift in Sources */,
 				861EC66124B912C9005C2F44 /* ShapesGroup.swift in Sources */,
 				861EC64624B90DD9005C2F44 /* SwiftUI_KitApp.swift in Sources */,
+				97DF0A4E24DA6DE300F829B9 /* ButtonModifiers.swift in Sources */,
 				861EC65624B90E16005C2F44 /* GroupView.swift in Sources */,
 				861EC65D24B9106E005C2F44 /* ControlsGroup.swift in Sources */,
 			);
@@ -530,15 +542,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9E8C6FA24C7E46C000A2F66 /* MapGroup.swift in Sources */,
-				F95A4E2424B9938100697538 /* ButtonsGroup.swift in Sources */,
 				F95A4E2224B9938100697538 /* ImagesGroup.swift in Sources */,
 				F95A4E1F24B9936000697538 /* SwiftUI_KitApp.swift in Sources */,
 				F95A4E2824B9938100697538 /* IndicatorsGroup.swift in Sources */,
 				F95A4E2524B9938100697538 /* ColorsGroup.swift in Sources */,
 				F95A4E2324B9938100697538 /* GroupView.swift in Sources */,
 				F95A4E2924B9938100697538 /* FontsGroup.swift in Sources */,
+				97DF0A5324DA6DE300F829B9 /* ButtonsGroup.swift in Sources */,
 				F95A4E2124B9938100697538 /* ShapesGroup.swift in Sources */,
 				F95A4E2A24B9938100697538 /* SectionView.swift in Sources */,
+				97DF0A4F24DA6DE300F829B9 /* ButtonModifiers.swift in Sources */,
 				F95A4E2624B9938100697538 /* ControlsGroup.swift in Sources */,
 				F95A4E2724B9938100697538 /* TextGroup.swift in Sources */,
 				F95A4E2024B9937800697538 /* ContentView.swift in Sources */,
@@ -567,13 +580,22 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFGJV6265F;
 				IBSC_MODULE = SwiftUI_Kit_watchOS_Extension;
 				INFOPLIST_FILE = watchOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.kit.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/Groupings/SwiftUI Kit watchOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 7.0;
@@ -586,13 +608,21 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFGJV6265F;
 				IBSC_MODULE = SwiftUI_Kit_watchOS_Extension;
 				INFOPLIST_FILE = watchOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.kit.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/Groupings/SwiftUI Kit watchOS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 7.0;
@@ -605,6 +635,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
+				DEVELOPMENT_TEAM = GFGJV6265F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "watchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -628,6 +659,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
+				DEVELOPMENT_TEAM = GFGJV6265F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "watchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -652,6 +684,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "Shared/Preview\\ Content";
+				DEVELOPMENT_TEAM = GFGJV6265F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = tvOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -676,6 +709,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "Shared/Preview\\ Content";
+				DEVELOPMENT_TEAM = GFGJV6265F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = tvOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -816,6 +850,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
+				DEVELOPMENT_TEAM = GFGJV6265F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -837,6 +872,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
+				DEVELOPMENT_TEAM = GFGJV6265F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -860,6 +896,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
+				DEVELOPMENT_TEAM = GFGJV6265F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -44,8 +44,6 @@ struct ButtonModifiers: View {
     @State private var damping = DEFAULT_DAMPING
     @State private var duration = DEFAULT_DURATION
     
-    
-    
     var body: some View {
         VStack(spacing: 20) {
             Spacer()

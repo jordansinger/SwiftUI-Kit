@@ -15,7 +15,6 @@ struct GesturesGroup: View {
             SectionView(description: "A Gesture that counts the number of taps.") {
                 tapGestureBlock
             }
-            //			.onTapGesture(count: tapGestureBlock.count, perform: tapGestureBlock.tapped)
             
             SectionView(description: "A Gesture that detects drag motion.") {
                 DragGestureBlock()

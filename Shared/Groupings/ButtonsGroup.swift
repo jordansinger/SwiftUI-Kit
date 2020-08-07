@@ -152,7 +152,7 @@ struct ButtonsGroup: View {
             
             #if os(iOS)
             SectionView(
-                title: "CustomButtonViews",
+                title: "Custom Button Views",
                 description: "Customize what buttons look like",
                 content: {
                     Button(action: {

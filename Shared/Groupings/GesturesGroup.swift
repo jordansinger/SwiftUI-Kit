@@ -12,7 +12,7 @@ struct GesturesGroup: View {
     var body: some View {
         Group{
             SectionView(description: "A Gesture that counts the number of taps.") {
-                tapGestureBlock
+                TapGestureBlock()
             }
             
             SectionView(description: "A Gesture that detects drag motion.") {

@@ -9,7 +9,6 @@ import SwiftUI
 
 struct GesturesGroup: View {
     
-    @State private var tapGestureBlock = TapGestureBlock()
     var body: some View {
         Group{
             SectionView(description: "A Gesture that counts the number of taps.") {

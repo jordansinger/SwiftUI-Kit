@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct ButtonStyleParams {
     let scale: Double
     let rotation: Double

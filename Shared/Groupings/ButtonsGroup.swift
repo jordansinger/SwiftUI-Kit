@@ -81,6 +81,7 @@ struct ButtonsGroup: View {
                 description: "A control for presenting a contextually-appropriate menu of buttons.",
                 content: {
                     Group {
+                        #if !os(tvOS)
                         Menu("Show Menu") {
                             Button("Button") {}
                             Button("Button") {}
@@ -97,7 +98,7 @@ struct ButtonsGroup: View {
                                 Button("Button") {}
                             }
                         }
-                        
+                        #endif
                         HStack {
                             #if os(iOS)
                             Text("Show Context Menu")

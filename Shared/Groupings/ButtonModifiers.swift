@@ -71,6 +71,7 @@ struct ButtonModifiers: View {
             ScrollView {
                 ScrollViewReader { reader in
                     VStack(alignment: .leading) {
+                        #if !os(tvOS)
                         Group {
                             Text("Scale Effect: \(scale * 100, specifier: "%.0f")%")
                                 .font(Font.body.bold())
@@ -97,7 +98,6 @@ struct ButtonModifiers: View {
                         }
                         #endif
                         Divider()
-                        #if !os(tvOS)
                         Toggle("Animate", isOn: $animate.animation())
                             .font(Font.body.bold())
                             .toggleStyle(SwitchToggleStyle(tint: DEFAULT_COLOR))

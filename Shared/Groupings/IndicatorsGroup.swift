@@ -28,11 +28,11 @@ struct IndicatorsGroup: View {
                             if progressAmount != 100 {
                                 progressAmount += 2
                             } else {
-                                print(progressAmount)
-                                do {
-                                    sleep(2)
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                                    print(progressAmount)
+                                    progressAmount = 0.0
                                 }
-                                progressAmount = 0.0
+                                
                             }
                         }
                         #if os(watchOS)

@@ -11,7 +11,7 @@ struct GesturesGroup: View {
     
     var body: some View {
         Group{
-            SectionView(description: "A Gesture that counts the number of taps.") {
+            SectionView(description: "A Gesture that requires a certain number of taps.") {
                 TapGestureBlock()
             }
             
@@ -28,21 +28,19 @@ struct GesturesGroup: View {
 
 struct TapGestureBlock : View {
     @State var count = 1
-    @State var text = "Tap Count : 0"
     var body : some View {
         Group{
             HStack{
                 Text("Tap Gesture")
                 Spacer()
-                Text(text)
+                Text("Tap count: \(count)")
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
         }
         .onTapGesture(count: count, perform: tapped)
     }
-    func tapped(){
-        self.text = "Tap count : \(count)"
+    func tapped() {
         self.count += 1
     }
 }

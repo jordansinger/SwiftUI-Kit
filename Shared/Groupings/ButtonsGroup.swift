@@ -10,6 +10,7 @@ struct ButtonsGroup: View {
     @State private var showingAlert = false
     @State private var showingSheet = false
     @State private var showingActionSheet = false
+    @State private var showButtonSheet = false
     
     var body: some View {
         Group {
@@ -80,6 +81,7 @@ struct ButtonsGroup: View {
                 description: "A control for presenting a contextually-appropriate menu of buttons.",
                 content: {
                     Group {
+                        #if !os(tvOS)
                         Menu("Show Menu") {
                             Button("Button") {}
                             Button("Button") {}
@@ -96,7 +98,7 @@ struct ButtonsGroup: View {
                                 Button("Button") {}
                             }
                         }
-
+                        #endif
                         HStack {
                             #if os(iOS)
                             Text("Show Context Menu")
@@ -146,6 +148,28 @@ struct ButtonsGroup: View {
                         }
                     )
                 }
+            )
+            #endif
+            
+            #if os(iOS)
+            SectionView(
+                title: "Custom Button Views",
+                description: "Customize what buttons look like",
+                content: {
+                    Button(action: {
+                        self.showButtonSheet = true
+                    }) {
+                        Text("Show Button Modifiers")
+                    }.sheet(isPresented: $showButtonSheet) {
+                        ButtonModifiers().padding()
+                        #if os(macOS)
+                        Button("Close") {
+                            showButtonSheet.toggle()
+                        }.padding()
+                        #endif
+                    }
+                }
+                
             )
             #endif
         }

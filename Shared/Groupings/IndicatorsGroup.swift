@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct IndicatorsGroup: View {
+    @State private var progressAmount = 0.0
     @State private var progress = 0.5
-
+    
+    let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
+    
     var body: some View {
         Group {
             SectionView(
@@ -18,7 +21,19 @@ struct IndicatorsGroup: View {
                 content: {
                     Group {
                         ProgressView()
-                        ProgressView(value: progress)
+                        VStack {
+                            ProgressView("Downloading…", value: progressAmount, total: 100)
+                        }
+                        .onReceive(timer) { _ in
+                            if progressAmount < 100 {
+                                progressAmount += 2
+                            } else {
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                                    progressAmount = 0.0
+                                }
+                                
+                            }
+                        }
                         #if os(watchOS)
                         ProgressView(value: progress)
                             .progressViewStyle(CircularProgressViewStyle())

@@ -19,7 +19,6 @@
 		2D8F831F24BA013E00E90F0B /* ColorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66224B912D2005C2F44 /* ColorsGroup.swift */; };
 		2D8F832024BA013E00E90F0B /* ControlsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65C24B9106E005C2F44 /* ControlsGroup.swift */; };
 		2D8F832124BA013E00E90F0B /* FontsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65E24B91075005C2F44 /* FontsGroup.swift */; };
-		2D8F832224BA013E00E90F0B /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */; };
 		2DC7DE5624BA0D9A00A84252 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
 		2DC7DE5724BA0D9A00A84252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
 		2DF330AF24BAA8C60034C8D0 /* ControlsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65C24B9106E005C2F44 /* ControlsGroup.swift */; };
@@ -29,7 +28,6 @@
 		2DF330B324BAA8C60034C8D0 /* FontsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65E24B91075005C2F44 /* FontsGroup.swift */; };
 		2DF330B424BAA8C60034C8D0 /* ImagesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */; };
 		2DF330B524BAA8C60034C8D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
-		2DF330B624BAA8C60034C8D0 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */; };
 		2DF330B724BAA8C60034C8D0 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65524B90E16005C2F44 /* GroupView.swift */; };
 		2DF330B824BAA8C60034C8D0 /* ColorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66224B912D2005C2F44 /* ColorsGroup.swift */; };
 		2DF330B924BAA8C60034C8D0 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66424B914FB005C2F44 /* SectionView.swift */; };
@@ -47,16 +45,26 @@
 		861EC66124B912C9005C2F44 /* ShapesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66024B912C9005C2F44 /* ShapesGroup.swift */; };
 		861EC66324B912D2005C2F44 /* ColorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66224B912D2005C2F44 /* ColorsGroup.swift */; };
 		861EC66524B914FB005C2F44 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66424B914FB005C2F44 /* SectionView.swift */; };
-		861EC66724B91AE8005C2F44 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */; };
 		861EC66924B91D4E005C2F44 /* IndicatorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */; };
 		861EC66B24B91E1D005C2F44 /* ImagesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */; };
 		861EC66D24B91F19005C2F44 /* HapticsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66C24B91F19005C2F44 /* HapticsGroup.swift */; };
+		97DF0A4E24DA6DE300F829B9 /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4C24DA6DE300F829B9 /* ButtonModifiers.swift */; };
+		97DF0A5224DA6DE300F829B9 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */; };
+		97DF0A5324DA6DE300F829B9 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */; };
+		97DF0A5424DA6DE300F829B9 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */; };
+		97DF0A5524DA6DE300F829B9 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */; };
+		97E5A1D224E1A71200246EAD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E5A1D124E1A71200246EAD /* WidgetKit.framework */; };
+		97E5A1D424E1A71200246EAD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E5A1D324E1A71200246EAD /* SwiftUI.framework */; };
+		97E5A1D724E1A71200246EAD /* SwiftUI_Kit_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E5A1D624E1A71200246EAD /* SwiftUI_Kit_Widget.swift */; };
+		97E5A1DA24E1A71300246EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E5A1D924E1A71300246EAD /* Assets.xcassets */; };
+		97E5A1DC24E1A71300246EAD /* SwiftUI_Kit_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 97E5A1D824E1A71200246EAD /* SwiftUI_Kit_Widget.intentdefinition */; };
+		97E5A1DD24E1A71300246EAD /* SwiftUI_Kit_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 97E5A1D824E1A71200246EAD /* SwiftUI_Kit_Widget.intentdefinition */; };
+		97E5A1E024E1A71300246EAD /* SwiftUI Kit WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 97E5A1CF24E1A71200246EAD /* SwiftUI Kit WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F95A4E1F24B9936000697538 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
 		F95A4E2024B9937800697538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
 		F95A4E2124B9938100697538 /* ShapesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66024B912C9005C2F44 /* ShapesGroup.swift */; };
 		F95A4E2224B9938100697538 /* ImagesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */; };
 		F95A4E2324B9938100697538 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65524B90E16005C2F44 /* GroupView.swift */; };
-		F95A4E2424B9938100697538 /* ButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */; };
 		F95A4E2524B9938100697538 /* ColorsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66224B912D2005C2F44 /* ColorsGroup.swift */; };
 		F95A4E2624B9938100697538 /* ControlsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65C24B9106E005C2F44 /* ControlsGroup.swift */; };
 		F95A4E2724B9938100697538 /* TextGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC65A24B91065005C2F44 /* TextGroup.swift */; };
@@ -84,6 +92,13 @@
 			remoteGlobalIDString = 2D8F82F224BA011700E90F0B;
 			remoteInfo = "SwiftUI Kit watchOS";
 		};
+		97E5A1DE24E1A71300246EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 861EC63A24B90DD9005C2F44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97E5A1CE24E1A71200246EAD;
+			remoteInfo = "SwiftUI Kit WidgetExtension";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,6 +120,17 @@
 			dstSubfolderSpec = 13;
 			files = (
 				2D8F82FD24BA011800E90F0B /* SwiftUI Kit watchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E5A1E124E1A71300246EAD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				97E5A1E024E1A71300246EAD /* SwiftUI Kit WidgetExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,10 +159,18 @@
 		861EC66024B912C9005C2F44 /* ShapesGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesGroup.swift; sourceTree = "<group>"; };
 		861EC66224B912D2005C2F44 /* ColorsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsGroup.swift; sourceTree = "<group>"; };
 		861EC66424B914FB005C2F44 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
-		861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsGroup.swift; sourceTree = "<group>"; };
 		861EC66824B91D4E005C2F44 /* IndicatorsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsGroup.swift; sourceTree = "<group>"; };
 		861EC66A24B91E1D005C2F44 /* ImagesGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesGroup.swift; sourceTree = "<group>"; };
 		861EC66C24B91F19005C2F44 /* HapticsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsGroup.swift; sourceTree = "<group>"; };
+		97DF0A4C24DA6DE300F829B9 /* ButtonModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
+		97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsGroup.swift; sourceTree = "<group>"; };
+		97E5A1CF24E1A71200246EAD /* SwiftUI Kit WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SwiftUI Kit WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E5A1D124E1A71200246EAD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		97E5A1D324E1A71200246EAD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		97E5A1D624E1A71200246EAD /* SwiftUI_Kit_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Kit_Widget.swift; sourceTree = "<group>"; };
+		97E5A1D824E1A71200246EAD /* SwiftUI_Kit_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SwiftUI_Kit_Widget.intentdefinition; sourceTree = "<group>"; };
+		97E5A1D924E1A71300246EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97E5A1DB24E1A71300246EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95A4E0F24B9932000697538 /* SwiftUI Kit Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95A4E1A24B9932200697538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95A4E1B24B9932200697538 /* SwiftUI_Kit_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Kit_Mac.entitlements; sourceTree = "<group>"; };
@@ -162,6 +196,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E5A1CC24E1A71200246EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E5A1D424E1A71200246EAD /* SwiftUI.framework in Frameworks */,
+				97E5A1D224E1A71200246EAD /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +252,8 @@
 				2D8F82F424BA011700E90F0B /* watchOS */,
 				2D8F830024BA011800E90F0B /* watchOS Extension */,
 				2DF330A124BAA8B80034C8D0 /* tvOS */,
+				97E5A1D524E1A71200246EAD /* SwiftUI Kit Widget */,
+				97E5A1D024E1A71200246EAD /* Frameworks */,
 				861EC64324B90DD9005C2F44 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -221,6 +266,7 @@
 				2D8F82F324BA011700E90F0B /* SwiftUI Kit watchOS.app */,
 				2D8F82FC24BA011800E90F0B /* SwiftUI Kit watchOS Extension.appex */,
 				2DF330A024BAA8B80034C8D0 /* SwiftUI Kit tvOS.app */,
+				97E5A1CF24E1A71200246EAD /* SwiftUI Kit WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,7 +296,8 @@
 		861EC65424B90DF1005C2F44 /* Groupings */ = {
 			isa = PBXGroup;
 			children = (
-				861EC66624B91AE8005C2F44 /* ButtonsGroup.swift */,
+				97DF0A4D24DA6DE300F829B9 /* ButtonsGroup.swift */,
+				97DF0A4C24DA6DE300F829B9 /* ButtonModifiers.swift */,
 				861EC66224B912D2005C2F44 /* ColorsGroup.swift */,
 				861EC65C24B9106E005C2F44 /* ControlsGroup.swift */,
 				861EC65E24B91075005C2F44 /* FontsGroup.swift */,
@@ -263,6 +310,26 @@
 				F9E8C6F824C7E46C000A2F66 /* MapGroup.swift */,
 			);
 			path = Groupings;
+			sourceTree = "<group>";
+		};
+		97E5A1D024E1A71200246EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97E5A1D124E1A71200246EAD /* WidgetKit.framework */,
+				97E5A1D324E1A71200246EAD /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97E5A1D524E1A71200246EAD /* SwiftUI Kit Widget */ = {
+			isa = PBXGroup;
+			children = (
+				97E5A1D624E1A71200246EAD /* SwiftUI_Kit_Widget.swift */,
+				97E5A1D824E1A71200246EAD /* SwiftUI_Kit_Widget.intentdefinition */,
+				97E5A1D924E1A71300246EAD /* Assets.xcassets */,
+				97E5A1DB24E1A71300246EAD /* Info.plist */,
+			);
+			path = "SwiftUI Kit Widget";
 			sourceTree = "<group>";
 		};
 		F95A4E1024B9932000697538 /* macOS */ = {
@@ -344,16 +411,35 @@
 				861EC63F24B90DD9005C2F44 /* Frameworks */,
 				861EC64024B90DD9005C2F44 /* Resources */,
 				2D8F831024BA011900E90F0B /* Embed Watch Content */,
+				97E5A1E124E1A71300246EAD /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				2D8F830E24BA011900E90F0B /* PBXTargetDependency */,
+				97E5A1DF24E1A71300246EAD /* PBXTargetDependency */,
 			);
 			name = "SwiftUI Kit iOS";
 			productName = "SwiftUI Kit";
 			productReference = 861EC64224B90DD9005C2F44 /* SwiftUI Kit iOS.app */;
 			productType = "com.apple.product-type.application";
+		};
+		97E5A1CE24E1A71200246EAD /* SwiftUI Kit WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E5A1E424E1A71300246EAD /* Build configuration list for PBXNativeTarget "SwiftUI Kit WidgetExtension" */;
+			buildPhases = (
+				97E5A1CB24E1A71200246EAD /* Sources */,
+				97E5A1CC24E1A71200246EAD /* Frameworks */,
+				97E5A1CD24E1A71200246EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Kit WidgetExtension";
+			productName = "SwiftUI Kit WidgetExtension";
+			productReference = 97E5A1CF24E1A71200246EAD /* SwiftUI Kit WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 		F95A4E0E24B9932000697538 /* SwiftUI Kit Mac */ = {
 			isa = PBXNativeTarget;
@@ -383,6 +469,7 @@
 				TargetAttributes = {
 					2D8F82F224BA011700E90F0B = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 					2D8F82FB24BA011800E90F0B = {
 						CreatedOnToolsVersion = 12.0;
@@ -391,6 +478,9 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					861EC64124B90DD9005C2F44 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					97E5A1CE24E1A71200246EAD = {
 						CreatedOnToolsVersion = 12.0;
 					};
 					F95A4E0E24B9932000697538 = {
@@ -416,6 +506,7 @@
 				2D8F82F224BA011700E90F0B /* SwiftUI Kit watchOS */,
 				2D8F82FB24BA011800E90F0B /* SwiftUI Kit watchOS Extension */,
 				2DF3309F24BAA8B80034C8D0 /* SwiftUI Kit tvOS */,
+				97E5A1CE24E1A71200246EAD /* SwiftUI Kit WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -452,6 +543,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		97E5A1CD24E1A71200246EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E5A1DA24E1A71300246EAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F95A4E0D24B9932000697538 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,8 +572,8 @@
 				2DC7DE5624BA0D9A00A84252 /* SwiftUI_KitApp.swift in Sources */,
 				2D8F831F24BA013E00E90F0B /* ColorsGroup.swift in Sources */,
 				2D8F831B24BA013E00E90F0B /* ImagesGroup.swift in Sources */,
-				2D8F832224BA013E00E90F0B /* ButtonsGroup.swift in Sources */,
 				2D8F831824BA013E00E90F0B /* GroupView.swift in Sources */,
+				97DF0A5424DA6DE300F829B9 /* ButtonsGroup.swift in Sources */,
 				2D8F832024BA013E00E90F0B /* ControlsGroup.swift in Sources */,
 				2DC7DE5724BA0D9A00A84252 /* ContentView.swift in Sources */,
 				2D8F831D24BA013E00E90F0B /* TextGroup.swift in Sources */,
@@ -492,9 +591,9 @@
 				2DF330B224BAA8C60034C8D0 /* TextGroup.swift in Sources */,
 				2DF330B824BAA8C60034C8D0 /* ColorsGroup.swift in Sources */,
 				2DF330BA24BAA8C60034C8D0 /* SwiftUI_KitApp.swift in Sources */,
-				2DF330B624BAA8C60034C8D0 /* ButtonsGroup.swift in Sources */,
 				2DF330AF24BAA8C60034C8D0 /* ControlsGroup.swift in Sources */,
 				2DF330B124BAA8C60034C8D0 /* IndicatorsGroup.swift in Sources */,
+				97DF0A5524DA6DE300F829B9 /* ButtonsGroup.swift in Sources */,
 				2DF330B524BAA8C60034C8D0 /* ContentView.swift in Sources */,
 				2DF330B924BAA8C60034C8D0 /* SectionView.swift in Sources */,
 				2DF330B324BAA8C60034C8D0 /* FontsGroup.swift in Sources */,
@@ -513,15 +612,26 @@
 				5BE8E05524CE87CB005E833D /* GesturesGroup.swift in Sources */,
 				861EC66524B914FB005C2F44 /* SectionView.swift in Sources */,
 				861EC66924B91D4E005C2F44 /* IndicatorsGroup.swift in Sources */,
-				861EC66724B91AE8005C2F44 /* ButtonsGroup.swift in Sources */,
 				861EC64824B90DD9005C2F44 /* ContentView.swift in Sources */,
 				861EC66D24B91F19005C2F44 /* HapticsGroup.swift in Sources */,
 				861EC66324B912D2005C2F44 /* ColorsGroup.swift in Sources */,
+				97DF0A5224DA6DE300F829B9 /* ButtonsGroup.swift in Sources */,
 				861EC66B24B91E1D005C2F44 /* ImagesGroup.swift in Sources */,
 				861EC66124B912C9005C2F44 /* ShapesGroup.swift in Sources */,
 				861EC64624B90DD9005C2F44 /* SwiftUI_KitApp.swift in Sources */,
+				97DF0A4E24DA6DE300F829B9 /* ButtonModifiers.swift in Sources */,
+				97E5A1DD24E1A71300246EAD /* SwiftUI_Kit_Widget.intentdefinition in Sources */,
 				861EC65624B90E16005C2F44 /* GroupView.swift in Sources */,
 				861EC65D24B9106E005C2F44 /* ControlsGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E5A1CB24E1A71200246EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E5A1D724E1A71200246EAD /* SwiftUI_Kit_Widget.swift in Sources */,
+				97E5A1DC24E1A71300246EAD /* SwiftUI_Kit_Widget.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,13 +640,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9E8C6FA24C7E46C000A2F66 /* MapGroup.swift in Sources */,
-				F95A4E2424B9938100697538 /* ButtonsGroup.swift in Sources */,
 				F95A4E2224B9938100697538 /* ImagesGroup.swift in Sources */,
 				F95A4E1F24B9936000697538 /* SwiftUI_KitApp.swift in Sources */,
 				F95A4E2824B9938100697538 /* IndicatorsGroup.swift in Sources */,
 				F95A4E2524B9938100697538 /* ColorsGroup.swift in Sources */,
 				F95A4E2324B9938100697538 /* GroupView.swift in Sources */,
 				F95A4E2924B9938100697538 /* FontsGroup.swift in Sources */,
+				97DF0A5324DA6DE300F829B9 /* ButtonsGroup.swift in Sources */,
 				F95A4E2124B9938100697538 /* ShapesGroup.swift in Sources */,
 				F95A4E2A24B9938100697538 /* SectionView.swift in Sources */,
 				F95A4E2624B9938100697538 /* ControlsGroup.swift in Sources */,
@@ -557,6 +667,11 @@
 			isa = PBXTargetDependency;
 			target = 2D8F82F224BA011700E90F0B /* SwiftUI Kit watchOS */;
 			targetProxy = 2D8F830D24BA011900E90F0B /* PBXContainerItemProxy */;
+		};
+		97E5A1DF24E1A71300246EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97E5A1CE24E1A71200246EAD /* SwiftUI Kit WidgetExtension */;
+			targetProxy = 97E5A1DE24E1A71300246EAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -812,6 +927,7 @@
 		861EC65224B90DDB005C2F44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -833,6 +949,7 @@
 		861EC65324B90DDB005C2F44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -846,6 +963,48 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.kit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97E5A1E224E1A71300246EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "SwiftUI Kit Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftui.kit.SwiftUI-Kit-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97E5A1E324E1A71300246EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "SwiftUI Kit Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftui.kit.SwiftUI-Kit-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -941,6 +1100,15 @@
 			buildConfigurations = (
 				861EC65224B90DDB005C2F44 /* Debug */,
 				861EC65324B90DDB005C2F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E5A1E424E1A71300246EAD /* Build configuration list for PBXNativeTarget "SwiftUI Kit WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E5A1E224E1A71300246EAD /* Debug */,
+				97E5A1E324E1A71300246EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

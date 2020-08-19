@@ -25,11 +25,10 @@ struct IndicatorsGroup: View {
                             ProgressView("Downloading…", value: progressAmount, total: 100)
                         }
                         .onReceive(timer) { _ in
-                            if progressAmount != 100 {
+                            if progressAmount < 100 {
                                 progressAmount += 2
                             } else {
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                                    print(progressAmount)
                                     progressAmount = 0.0
                                 }
                                 

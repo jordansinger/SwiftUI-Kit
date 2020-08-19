@@ -69,7 +69,6 @@ struct ButtonModifiers: View {
             ScrollView {
                 ScrollViewReader { reader in
                     VStack(alignment: .leading) {
-                        #if !os(tvOS)
                         Group {
                             Text("Scale Effect: \(scale * 100, specifier: "%.0f")%")
                                 .font(Font.body.bold())
@@ -82,7 +81,6 @@ struct ButtonModifiers: View {
                             Slider(value: $blur, in: 0...15, step: 0.5)
                         }
                         Divider()
-                        #if !os(watchOS   )
                         Group {
                             ColorPicker("Button Color", selection: $buttonColor)
                                 .font(Font.body.bold())
@@ -94,7 +92,6 @@ struct ButtonModifiers: View {
                                 .font(Font.body.bold())
                                 .padding(.vertical)
                         }
-                        #endif
                         Divider()
                         Toggle("Animate", isOn: $animate.animation())
                             .font(Font.body.bold())
@@ -113,7 +110,6 @@ struct ButtonModifiers: View {
                             Text("(low for large bounce, high for small bounce)")
                                 .font(Font.caption.bold())
                         }
-                        #endif
                     }
                     .accentColor(DEFAULT_COLOR)
                     .padding(30)

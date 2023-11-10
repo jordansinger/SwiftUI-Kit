@@ -55,20 +55,18 @@ struct FontsGroup: View {
             }
             
             Group {
+                SectionView(description: "A font with the footnote text style.") {
+                    Text("footnote")
+                        .font(.footnote)
+                }
                 SectionView(description: "A font with the caption text style.") {
                     Text("caption")
                         .font(.caption)
                 }
-                
                 SectionView(description: "Create a font with the alternate caption text style.") {
                     Text("caption2")
                         .font(.caption2)
                 }
-            }
-            
-            SectionView(description: "A font with the footnote text style.") {
-                Text("footnote")
-                    .font(.footnote)
             }
         }
     }
